@@ -1,0 +1,98 @@
+$color: #8BC34A;
+$color2: #00BCD4;
+$color3: #3F51B5;
+$ancho: 25%;
+
+
+.txt-ti-g input[type=text]{
+  width: $ancho;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid $color;
+  border-radius: 4px;
+}
+
+.txt2-ti-g input[type=text]{
+  width: $ancho;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid $color;
+}
+
+.txt3-ti-g input[type=text]{ 
+  background-color: $color;
+  color: white;
+  width: $ancho;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+input[type=text]{
+  width: $ancho;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.txt4-ti-g input[type=text]:focus{ 
+  background-color: lightblue;
+  width: $ancho;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.txt5-ti-s input[type=text]{ 
+  background-color: white;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+}
+
+.txt6-ti-s input[type=text]{ 
+  background-color: white;
+  color: $color2;
+  width: $ancho;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.txt7-ti-s input[type=text]{ 
+  width: $ancho;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border-radius: 30px;
+  border: 2px solid $color2;
+}
+
+.txt8-ti-i input[type=text]{ 
+  width: $ancho;
+  background-color: white;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px dashed $color3;
+}
+
+.txt9-ti-g input[type=text]{ 
+  width: $ancho;
+  background-color: white;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 6px double $color;
+}
+
+.txt10-ti-g input[type=text]{ 
+  width: $ancho;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: none;
+}
+
+

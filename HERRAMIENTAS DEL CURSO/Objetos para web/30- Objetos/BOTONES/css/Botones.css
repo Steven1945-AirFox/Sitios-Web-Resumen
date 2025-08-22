@@ -1,0 +1,50 @@
+ul {
+  list-style: none; }
+
+li {
+  display: inline-block;
+  cursor: pointer; }
+  li:hover {
+    color: white; }
+
+#boton_1 {
+  padding: 20px;
+  background: purple;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -o-border-radius: 50px; }
+
+#boton_2 {
+  padding: 20px;
+  background: orange;
+  border-radius: 15px 30px 15px 30px;
+  -webkit-border-radius: 15px 30px 15px 30px;
+  -moz-border-radius: 15px 30px 15px 30px;
+  -o-border-radius: 15px 30px 15px 30px; }
+
+#boton_3 {
+  padding: 20px;
+  background: blue;
+  border-radius: 30px 15px 30px 15px;
+  -webkit-border-radius: 30px 15px 30px 15px;
+  -moz-border-radius: 30px 15px 30px 15px;
+  -o-border-radius: 30px 15px 30px 15px; }
+
+#boton_4 {
+  padding: 20px;
+  background: yellowgreen;
+  border-radius: 40px 0 60px 0;
+  -webkit-border-radius: 40px 0 60px 0;
+  -moz-border-radius: 40px 0 60px 0;
+  -o-border-radius: 40px 0 60px 0; }
+
+#boton_5 {
+  padding: 20px;
+  background: cyan;
+  border-radius: 70px;
+  -webkit-border-radius: 70px;
+  -moz-border-radius: 70px;
+  -o-border-radius: 70px; }
+
+/*# sourceMappingURL=Botones.css.map */

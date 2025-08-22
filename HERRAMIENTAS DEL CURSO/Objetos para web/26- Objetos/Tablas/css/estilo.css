@@ -1,0 +1,99 @@
+table {
+  float: left;
+  margin: 8px; }
+
+.tabla1 {
+  border: 2px solid black; }
+
+.tabla1 th {
+  border: 1px solid black;
+  background-color: #2196F3;
+  text-align: center; }
+
+.tabla1 td {
+  border: 1px solid black;
+  background-color: #BBDEFB;
+  text-align: center; }
+
+.tabla1 td:hover {
+  background-color: #BDBDBD; }
+
+.tabla2 {
+  border: 2px solid black;
+  width: 50%; }
+
+.tabla2 th {
+  border: 1px solid black;
+  background-color: #D32F2F;
+  text-align: left; }
+
+.tabla2 td {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  background-color: #F44336;
+  text-align: center; }
+
+.tabla2 td:hover {
+  background-color: #607D8B; }
+
+.tabla3 {
+  border: 2px solid black;
+  width: 40%;
+  border-radius: 25px; }
+
+.tabla3 th {
+  border: 1px solid black;
+  background-color: #00796B;
+  text-align: left;
+  border-radius: 25px;
+  margin: 15px;
+  padding: 5px; }
+
+.tabla3 td {
+  border: 1px solid black;
+  background-color: #BBDEFB;
+  text-align: center;
+  border-radius: 25px;
+  margin: 15px;
+  padding: 2.5px; }
+
+.tabla3 td:hover {
+  background-color: #757575; }
+
+.tabla4 {
+  border: 2px solid black;
+  border-style: dotted;
+  width: 20%; }
+
+.tabla4 th {
+  background-color: #FFC107;
+  text-align: left;
+  margin: 15px;
+  padding: 5px; }
+
+.tabla4 td {
+  background-color: #FBC02D;
+  text-align: center;
+  margin: 15px;
+  padding: 2.5px; }
+
+.tabla5 {
+  width: 20%; }
+
+.tabla5 th {
+  border: 1px solid black;
+  background-color: #689F38;
+  text-align: center; }
+
+.tabla5 td {
+  border: 1px solid black;
+  background-color: #CDDC39;
+  text-align: center; }
+
+.tabla5 td:hover {
+  background-color: #8BC34A; }
+
+.tabla5 th:hover {
+  background-color: #FFEB3B; }
+
+/*# sourceMappingURL=estilo.css.map */

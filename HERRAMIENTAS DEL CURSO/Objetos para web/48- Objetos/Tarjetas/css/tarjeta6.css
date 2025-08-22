@@ -1,0 +1,49 @@
+body{
+	font-family: 'GlacialIndifferenceRegular'; 
+}
+.contenedorT6{
+	position: absolute;
+	transition: all .2s ease-in-out;
+	overflow: hidden;
+	float: left;
+	width: 100%;
+	max-width: 250px;
+	height: 25em;
+	background-color: #b2f7ef ;
+}
+
+.contenedorT6:hover{
+	transform: scale(1.1);
+}
+
+.contenedorT6 > .contenido{
+	display: block;
+	position: relative;
+}
+
+.contenedorT6 > .contenido > .texto{
+	transform: translate(0, 40px);
+	text-align: justify;
+	background-color: white;
+	padding: 20px 20px 55px 20px;
+	width: 87%;
+	height: 12em;
+}
+
+.contenedorT6 > .contenido > .imagen{
+	z-index: 1;
+	transform: translate(0, -15px);
+	position: absolute;
+	width: 100%;
+}
+
+.contenedorT6 > .contenido > .imagen > img{
+	border-radius: 50%;
+	border: 3px solid white;
+	display: block;
+	margin: 0 auto;
+	position: relative;
+	object-fit: cover;
+	width: 96px;
+	height: 96px;
+}

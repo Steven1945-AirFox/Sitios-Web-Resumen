@@ -1,0 +1,10 @@
+Notas sobre los atributos "data-lang-name" y "data-cite"
+
+El atributo "data-lang-name" se usa en las etiquetas "pre" que contienen codigo, 
+al utilizarse se muestra un marcador sobre esta que contiene el contenido de este
+atributo. Se pretende que con este se muestre el nombre del lenguaje del codigo.
+
+El atributo "data-cite" se utiliza en las etiquetas "blockquote", el estandar
+dice que se debe utilizar el atributo "cite" para indicar la fuente de la cita
+y esta debe ser un URL, el atributo "data-cite" debe contener el nombre de la fuente
+de la cita y esta se muestra, a diferencia del atributo "cite" que no se muestra.

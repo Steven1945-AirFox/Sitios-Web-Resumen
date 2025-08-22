@@ -1,0 +1,30 @@
+@import librerias/_variables.sass
+@import librerias/_tarjetas.sass
+@import librerias/_extensiones.sass
+
+
+body
+	background: $naranja
+	font-size: $toma-fuente
+
+h1
+	color: $color-titulos
+
+p
+	color: $color-parrafos
+
+
+.btn1
+	@include tarjeta1
+
+.btn2
+	@include tarjeta2(white, 600px, 250px)
+
+.btn3
+	@include tarjeta2(black, 600px, 250px)
+
+.btn4
+	@include tarjeta2(black, 600px, 250px)
+    
+btn5
+	@include tarjeta2(black, 600px, 250px)

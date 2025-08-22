@@ -1,0 +1,113 @@
+.paginacion {
+  display: flex;
+  list-style: none;
+  padding: 3px;
+}
+
+.pag-pc-i {
+  position: relative;
+  display: block;
+  padding: 0.5rem 0.75rem;
+  margin-left: -1px;
+  line-height: 1.25;
+  color: #3F51B5;
+  background-color: #ffffff;
+  border: 1px solid #3F51B5;
+  text-decoration: none;
+}
+
+.pag-pc-c {
+  position: relative;
+  display: block;
+  padding: 0.5rem 0.75rem;
+  margin-left: -1px;
+  line-height: 1.25;
+  color: #00BCD4;
+  background-color: #ffffff;
+  border: 1px solid #00BCD4;
+  text-decoration: none;
+}
+
+.pag-pc-l {
+  position: relative;
+  display: block;
+  padding: 0.5rem 0.75rem;
+  margin-left: -1px;
+  line-height: 1.25;
+  color: #8BC34A;
+  background-color: #ffffff;
+  border: 1px solid #8BC34A;
+  text-decoration: none;
+}
+
+.pag-pc-i2 {
+  position: relative;
+  display: block;
+  padding: 0.5rem 0.75rem;
+  margin-left: -1px;
+  line-height: 1.25;
+  color: #3F51B5;
+  background-color: #000000;
+  border: 1px solid #3F51B5;
+  text-decoration: none;
+}
+
+.pag-pc-c2 {
+  position: relative;
+  display: block;
+  padding: 0.5rem 0.75rem;
+  margin-left: -1px;
+  line-height: 1.25;
+  color: #00BCD4;
+  background-color: #000000;
+  border: 1px solid #00BCD4;
+  text-decoration: none;
+}
+
+.pag-pc-l2 {
+  position: relative;
+  display: block;
+  padding: 0.5rem 0.75rem;
+  margin-left: -1px;
+  line-height: 1.25;
+  color: #8BC34A;
+  background-color: #000000;
+  border: 1px solid #8BC34A;
+  text-decoration: none;
+}
+
+.pag-pc-i3 {
+  position: relative;
+  display: block;
+  padding: 0.5rem 0.75rem;
+  margin-left: -1px;
+  line-height: 1.25;
+  color: #000000;
+  background-color: #3F51B5;
+  border: 1px solid #000000;
+  text-decoration: none;
+}
+
+.pag-pc-c3 {
+  position: relative;
+  display: block;
+  padding: 0.5rem 0.75rem;
+  margin-left: -1px;
+  line-height: 1.25;
+  color: #000000;
+  background-color: #00BCD4;
+  border: 1px solid #000000;
+  text-decoration: none;
+}
+
+.pag-pc-l3 {
+  position: relative;
+  display: block;
+  padding: 0.5rem 0.75rem;
+  margin-left: -1px;
+  line-height: 1.25;
+  color: #000000;
+  background-color: #8BC34A;
+  border: 1px solid #000000;
+  text-decoration: none;
+}

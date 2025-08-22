@@ -1,0 +1,490 @@
+$color:#DCEDC8;
+$color2:#8BC34A;
+$color3:#BDBDBD;
+$color4:#689F38;
+$color5:#212121;
+$letratimenewrom:'Times New Roman';
+$color6:#FFFFFF;
+$color7:#757575;
+$color8:#00BCD4;
+$color9:#C5CAE9:
+$color10:#536DFE;
+$color11:#3e8e41;
+
+
+
+.for-lpc-g{
+	width:30%;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+    background-color:$color;
+    box-sizing:border-box;
+	margin-left: 600px;
+	margin-top: 2%;
+}
+.for-lpc-g h3{
+	margin-left: 210px;
+}
+.for-lpc-g input[type=text] {
+	width: 60%;
+	padding: 10px 15px;
+	margin: 3px 106px;
+	box-sizing: border-box;
+	border: 2px solid $color2;
+	border-radius: 4px;
+	text-align: center;
+  }
+
+  .for-lpc-g textarea{
+	width: 60%;
+	padding: 10px 15px;
+	margin: 3px 106px;
+	box-sizing: border-box;
+	border: 2px solid $color2;
+	border-radius: 4px;
+	text-align: center;
+  }
+  
+  .for-lpc-g button{
+	width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid $color3;
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:$color3;
+  }
+
+  .for2-dpc-g{
+	width:30%;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+    background-color:$color4;
+    box-sizing:border-box;
+	margin-left: 600px;
+	margin-top: 2%;
+}
+
+.for2-dpc-g h3{
+	margin-left: 210px;
+	color: $color5;
+}
+
+.for2-dpc-g input[type=text]{
+	width: 60%;
+	padding: 12px 20px;
+	margin: 3px 106px;
+	box-sizing: border-box;
+	border-radius: 6px;
+	font-family: $letratimenewrom;
+	font-size: 16px;  
+}
+
+
+.for2-dpc-g input[type=text]:focus {
+  background-color: $color3;
+  width: 60%;
+  padding: 12px 20px;
+  margin: 3px 106px;
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 6px;
+  font-family: $letratimenewrom;
+  font-size: 16px;  
+  }
+
+  .for2-dpc-g textarea{
+	width: 60%;
+	padding: 10px 15px;
+	margin: 3px 106px;
+	box-sizing: border-box;
+	border-radius: 6px;
+	font-family: $letratimenewrom;
+	font-size: 16px;  
+  }
+
+  .for2-dpc-g textarea:focus{
+	background-color: $color3;
+	width: 60%;
+	padding: 10px 15px;
+	margin: 3px 106px;
+	box-sizing: border-box;
+	text-align: center;
+	border-radius: 6px;
+	font-family: $letratimenewrom;
+	font-size: 16px;  
+  }
+
+  .for2-dpc-g button{
+	background-color: white; 
+	border: none;
+	color: $color5;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	margin-left: 38%;
+	font-family: $letratimenewrom;
+	font-size: 16px;
+	border-radius: 16px;  
+  }
+
+  .for2-dpc-g button:hover{
+	background-color: $color7; 
+	border: none;
+	color: $color5;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	margin-left: 38%;
+	font-family: $letratimenewrom;
+	font-size: 16px;
+	border-radius: 16px;  
+  }
+
+  .for3-pc-s {
+	width:30%;
+	padding:16px;
+	border-radius:18px;
+	position: relative;
+    background-color:$color8;
+    box-sizing:border-box;
+	margin-left: 600px;
+	margin-top: 2%;
+  }
+
+  .for3-pc-s h3{
+	  position: relative;
+  }
+
+  .for3-pc-s input[type=text]{
+	width: 75%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	border-radius: 30px;
+	border: 2px solid $color5;
+  }
+
+  .for3-pc-s input[type=date]{
+	width: 75%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	border-radius: 30px;
+	border: 2px solid $color5;
+  }
+
+  .for3-pc-s textarea{
+	width: 75%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	border-radius: 30px;
+	border: 2px solid $color5;
+  }
+
+  .for3-pc-s button{
+  background-color: $color6; 
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 25px;
+  }
+
+  .for4-pc-a{
+	padding: 1em;
+	background: #f9f9f9;
+	border: 1px solid $color8;
+	margin-top: 2%;
+	max-width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1em;
+  }
+  .for4-pc-a input {
+	margin-bottom: 1%;
+	background: #fff;
+	border: 1px solid $color8;
+	width: 95%;
+	padding: 12px 12px;
+  }
+  .for4-pc-a button {
+	background: $color6;
+	padding: 1%;
+	border: 1;
+	position: auto;
+  } 
+  .for4-pc-a label {
+	display: block;
+	padding: 0.5em 1.5em 0.5em 0;
+  }
+  .for4-pc-a input:focus {
+	outline: 3px solid $color5;
+  }
+  
+  .for5-lpc-i{
+	width:30%;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+    background-color:$color9;
+    box-sizing:border-box;
+	margin-left: 600px;
+	margin-top: 2%;
+  }
+  .for5-lpc-i .input-container {
+	display: -ms-flexbox; /* IE10 */
+	display: flex;
+	width: 100%;
+	margin-bottom: 15px;
+  }
+  
+  .for5-lpc-i .icon {
+	padding: 10px;
+	background: $color3;
+	color: white;
+	min-width: 50px;
+	text-align: center;
+  }
+  
+  .for5-lpc-i .input-field {
+	width: 100%;
+	padding: 10px;
+	outline: none;
+  }
+  
+  .for5-lpc-i .input-field:focus {
+	border: 2px solid $color3;
+  }
+
+  .for5-lpc-i .btn {
+	background-color: $color3;
+	color: white;
+	padding: 15px 20px;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	opacity: 0.9;
+  }
+  
+  .for5-lpc-i .btn:hover {
+	opacity: 1;
+  }
+
+  .for6-dpc-g {
+	width:30%;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+    background-color:$color4;
+    box-sizing:border-box;
+	margin-left: 600px;
+	margin-top: 2%;
+  }
+
+  .for6-dpc-g h3{
+	margin-left: 205px;
+  }
+
+  .for6-dpc-g input[type=text] {
+  width: 95%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border-radius: 25px;
+  border: none;
+  }
+
+  .for6-dpc-g textarea{
+	width: 95%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	border-radius: 25px;
+	border: none;
+  }
+  .for6-dpc-g button {
+	display: inline-block;
+	padding: 15px 32px;
+	font-size: 16px;
+	cursor: pointer;
+	text-align: center;	
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+	background-color: $color11;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 9px $color3;
+  }
+  
+  .for6-dpc-g button:hover {
+	  background-color:$color11;
+	}
+  
+  .for6-dpc-g button:active {
+	background-color: $color5;
+	box-shadow: 0 5px $color7;
+	transform: translateY(4px);
+  }
+
+  .for7-lpc-i {
+	width:30%;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+    background-color: $color9;
+    box-sizing:border-box;
+	margin-left: 600px;
+	margin-top: 2%;
+  }
+
+
+  .for7-lpc-i input[type=text]{
+  width: 100%;
+  background-color: white;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px dashed #3F51B5;
+  }
+
+  .for7-lpc-i .icon {
+  	padding: 8px;
+	background: $color10;
+	color: white;
+	min-width: 40px;
+	text-align: center;
+  }
+
+  .for7-lpc-i button{
+	background: $color10;
+	color: white;
+	border-radius: 25px;
+	padding: 10px;
+	width: 100%;
+  }
+
+  .for8-pc-t{
+	margin-left: 430px;
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-top: 2%;
+  }
+
+  .for8-pc-t label{
+	margin: 5px 10px 5px 0;
+  }
+
+  .for8-pc-t input{
+	padding: 10px 20px;
+	background-color: white;
+	border: 1px solid #00BCD4;
+	color: white;
+	cursor: pointer;
+  }
+  .for8-pc-t button{
+	  background: $color7;
+	  padding: 10px;
+	  border-radius: 4px;
+  }
+
+  .for8-pc-t button:hover{
+	background-color: royalblue;
+  }
+
+  .for9-pc-g{
+	width:30%;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+    background-color:$color4;
+    box-sizing:border-box;
+	margin-left: 600px;
+	margin-top: 2%; 
+  }
+
+  .for9-pc-g h3{
+	margin-left: 43%;
+  }
+
+  .for9-pc-g input{
+  width: 100%;
+  padding: 12px 0px;
+  margin: 8px 0;
+  border: none;
+  text-align: center;
+  }
+
+  .for9-pc-g button{
+	background-color: white; 
+	border: none;
+	color: $color5;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	margin-left: 42%;
+	font-family: $letratimenewrom;
+	font-size: 16px;
+	border-radius: 16px;
+  }
+
+  .for10-lpc-g{
+	width:30%;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+    background-color:$color;
+    box-sizing:border-box;
+	margin-left: 600px;
+	margin-top: 2%;
+}
+.for10-lpc-g h3{
+	margin-left: 210px;
+}
+.for10-lpc-g input[type=text] {
+	width: 100%;
+	background-color: white;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: 6px double $color5;
+  }
+
+  .for10-lpc-g textarea{
+	width: 100%;
+	background-color: white;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: 6px double $color5;
+  }
+  
+  .for10-lpc-g button{
+	width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	order: 6px double $color5;
+	border-radius:5px;
+	display:block;
+	color:$color5;
+	background-color:$color3;
+  }

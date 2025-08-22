@@ -1,0 +1,384 @@
+.contenedor {
+  height: 250px;
+  margin: auto;
+  width: 250px;
+  -webkit-perspective: 700;
+}
+
+.carta {
+  height: 100%;
+  width: 100%;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-box-shadow: 0px 0px 5px black;
+          box-shadow: 0px 0px 5px black;
+  position: absolute;
+}
+
+.carta:hover {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.lado {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #F0F0F0;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.frente {
+  background-color: crimson;
+}
+
+.frente h3 {
+  position: absolute;
+  font-size: 38px;
+  margin-top: 200px;
+  color: #fff;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  height: 204px;
+}
+
+li {
+  text-decoration: none;
+  padding: 10px;
+  z-index: 80;
+}
+
+.atras {
+  height: 100%;
+  width: 100%;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.atras h3 {
+  display: block;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.card02 {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  width: 40%;
+}
+
+.card02:hover {
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.tarjeta {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  width: 30%;
+}
+
+.tarjeta:hover {
+  -webkit-box-shadow: 0 18px 16px 0 rgba(255, 4, 4, 0.987);
+          box-shadow: 0 18px 16px 0 rgba(255, 4, 4, 0.987);
+}
+
+.container2 {
+  padding: 2px 16px;
+}
+
+button {
+  text-align: center;
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  border-radius: 20px;
+  border-color: darkblue;
+  background-color: #e6e6e6;
+  -webkit-box-shadow: 0 10px 10px;
+          box-shadow: 0 10px 10px;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+.card4 {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+.boton {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+.boton:hover, a:hover {
+  opacity: 0.7;
+}
+
+.cards-list {
+  z-index: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.card {
+  margin: 30px auto;
+  width: 300px;
+  height: 300px;
+  border-radius: 40px;
+  -webkit-box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25), -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+          box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25), -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+  cursor: pointer;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.card .card_image {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+}
+
+.card .card_image img {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.card .card_title {
+  text-align: center;
+  border-radius: 0px 0px 40px 40px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: -80px;
+  height: 40px;
+}
+
+.card:hover {
+  -webkit-transform: scale(0.9, 0.9);
+          transform: scale(0.9, 0.9);
+  -webkit-box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25), -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
+          box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25), -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
+}
+
+.title-white {
+  color: white;
+}
+
+.title-black {
+  color: black;
+}
+
+@media all and (max-width: 500px) {
+  .card-list {
+    /* On small screens, we are no longer using row direction but column */
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+.contenedor {
+  max-width: 1200px;
+  margin: 50px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contenedor_tarjeta {
+  margin: 20px;
+}
+
+.contenedor_tarjeta a {
+  display: inline-block;
+}
+
+.contenedor_tarjeta:hover figure {
+  -webkit-transform: perspective(600px) rotateY(180deg);
+          transform: perspective(600px) rotateY(180deg);
+  -webkit-box-shadow: 0px 2px 10px 2px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 2px 10px 2px rgba(0, 0, 0, 0.25);
+}
+
+.contenedor_tarjeta:hover figure img {
+  /* Si queremos podemos aplicar un efecto blur a nuestra imagen al girar */
+  /*filter:blur(2px);*/
+}
+
+figure {
+  width: 300px;
+  height: 350px;
+  margin: 0;
+  position: relative;
+  -webkit-transition: all ease .5s;
+  transition: all ease .5s;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  /* Nota:
+		Establecemos que la imagen tendra una rotacion de 0grados al inicio porque si no
+		ponemos esta propiedad nos da un poco de problemas en algunos navegadores al pasar el cursor.
+	*/
+  -webkit-transform: perspective(600px) rotateY(0deg);
+          transform: perspective(600px) rotateY(0deg);
+}
+
+figure .frontal,
+figure .trasera {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  -webkit-transition: all ease .5s;
+  transition: all ease .5s;
+}
+
+figure .frontal {
+  display: block;
+  background: #000;
+  /* Podemos ocultar la imagen al da la vuelta si lo queremos */
+  /*backface-visibility: hidden;*/
+}
+
+figure .trasera {
+  position: absolute;
+  top: 0;
+  padding: 20px;
+  color: #fff;
+  -webkit-transform: perspective(600px) rotateY(180deg);
+          transform: perspective(600px) rotateY(180deg);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  overflow: auto;
+}
+
+.contenedor_tarjeta:nth-child(1) figure .trasera {
+  background: rgba(223, 234, 241, 0.7);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(223, 234, 241, 0.7)), color-stop(100%, #0f6390));
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(223, 234, 241, 0.7)), to(#0f6390));
+  background: linear-gradient(to bottom, rgba(223, 234, 241, 0.7) 0%, #0f6390 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dfeaf1', endColorstr='#0f6390', GradientType=0 );
+}
+
+.contenedor_tarjeta:nth-child(2) figure .trasera {
+  background: rgba(251, 232, 202, 0.7);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(251, 232, 202, 0.7)), color-stop(100%, #192c48));
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(251, 232, 202, 0.7)), to(#192c48));
+  background: linear-gradient(to bottom, rgba(251, 232, 202, 0.7) 0%, #192c48 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbe8ca', endColorstr='#192c48', GradientType=0 );
+}
+
+.contenedor_tarjeta:nth-child(3) figure .trasera {
+  background: rgba(95, 58, 53, 0.7);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(95, 58, 53, 0.7)), color-stop(100%, #dd202f));
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(95, 58, 53, 0.7)), to(#dd202f));
+  background: linear-gradient(to bottom, rgba(95, 58, 53, 0.7) 0%, #dd202f 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5f3a35', endColorstr='#dd202f', GradientType=0 );
+}
+
+figure .trasera .titulo {
+  color: #fff;
+  font-weight: normal;
+  margin-bottom: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+}
+
+figure .trasera hr {
+  height: 2px;
+  background: #fff;
+  border: none;
+  margin-bottom: 20px;
+  opacity: .5;
+}
+
+figure .trasera p {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 22px;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 992px) {
+  figure .trasera {
+    /*position: relative;*/
+    -webkit-backface-visibility: visible;
+            backface-visibility: visible;
+    -webkit-transform: perspective(600px) rotateY(0deg);
+            transform: perspective(600px) rotateY(0deg);
+  }
+  .contenedor_tarjeta:hover figure {
+    -webkit-transform: perspective(600px) rotateY(0deg);
+            transform: perspective(600px) rotateY(0deg);
+  }
+}
+/*# sourceMappingURL=tarjetas.css.map */

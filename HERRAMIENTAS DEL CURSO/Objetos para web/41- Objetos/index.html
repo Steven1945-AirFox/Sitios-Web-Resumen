@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        [class*=col-] {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Title 1</h1>
+        <h2>Title 2</h2>
+        <h3>Title 3</h3>
+        <h4>Title 4</h4>
+        <h5>Title 5</h5>
+        <h6>Title 6</h6>
+        <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin mattis justo eget tortor mollis faucibus.
+                Sed
+                congue varius ipsum ut vestibulum. Proin interdum porttitor nisl, in bibendum tellus tristique at. Sed
+                sollicitudin venenatis erat. Integer eget egestas magna. Sed semper ipsum at justo congue, quis tempor
+                eros
+                porttitor. Aenean tristique posuere ex in facilisis. Nulla vestibulum non dui eu rutrum. Nunc iaculis
+                sem
+                vel posuere porta. Aliquam sit amet lectus sapien. Donec vel est eu ex dapibus ullamcorper sit amet a
+                ex.
+                Vestibulum vel auctor lacus. </p>
+        </div>
+        <hr>
+        <pre data-lang-name="Dart">
+          <code data-lang="dart">
+// A function declaration.
+int timesTwo(int x) {
+  return x * 2;
+}
+// Arrow syntax is shorthand for `{ return expr; }`.
+int timesFour(int x) => timesTwo(timesTwo(x));
+// Functions are objects.
+int runTwice(int x, Function f) {
+  for (var i = 0; i < 2; i++) {
+    x = f(x);
+  }
+  return x;
+}
+main() {
+  print("4 times two is ${timesTwo(4)}");
+  print("4 times four is ${timesFour(4)}");
+  print("2 x 2 x 2 is ${runTwice(2, timesTwo)}");
+}</code>
+      </pre>
+        <div>
+            <p>Press <kbd>Ctrl + X</kbd> to cut.</p>
+            <p>Link to <a href="http://www.example.com/" target="_blank">http://www.example.com/</a></p>
+            <p>Decorated text: <i>Italic</i>, <b>Bold</b>, <u>Underline</u>, <s>Strikethought</s> and
+                <mark>Marked</mark>
+            </p>
+            <p>More styles: <abbr title="World Health Organization">WHO</abbr>, <q>Quoted</q></p>
+        </div>
+        <h1>Title 1 <small>Small</small></h1>
+        <div>
+            <blockquote cite="http://www.worldwildlife.org/who/index.html" data-cite="WWL">
+                For nearly 60 years, WWF has been protecting the future of nature. The world's leading conservation
+                organization, WWF works in 100 countries and is supported by more than one million members in the United
+                States and close to five million globally.
+            </blockquote>
+            <blockquote>
+                For nearly 60 years, WWF has been protecting the future of nature. The world's leading conservation
+                organization, WWF works in 100 countries and is supported by more than one million members in the United
+                States and close to five million globally.
+            </blockquote>
+        </div>
+        <h2>Flexbox</h2>
+        <div class="row">
+            <div class="col-12">
+                <code>.col-12</code>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-1">
+                <code>.col-1</code>
+            </div>
+            <div class="col-11">
+                <code>.col-11</code>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-2">
+                <code>.col-2</code>
+            </div>
+            <div class="col-10">
+                <code>.col-10</code>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-3">
+                <code>.col-3</code>
+            </div>
+            <div class="col-9">
+                <code>.col-9</code>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-4">
+                <code>.col-4</code>
+            </div>
+            <div class="col-8">
+                <code>.col-8</code>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-5">
+                <code>.col-5</code>
+            </div>
+            <div class="col-7">
+                <code>.col-7</code>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-6">
+                <code>.col-6</code>
+            </div>
+            <div class="col-6">
+                <code>.col-6</code>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-8">
+                <code>.col-8</code>
+            </div>
+            <div class="col-4">
+                <code>.col-4</code>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-9">
+                <code>.col-9</code>
+            </div>
+            <div class="col-3">
+                <code>.col-3</code>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-10">
+                <code>.col-10</code>
+            </div>
+            <div class="col-2">
+                <code>.col-2</code>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-11">
+                <code>.col-11</code>
+            </div>
+            <div class="col-1">
+                <code>.col-1</code>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-12">
+                <code>.col-12</code>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

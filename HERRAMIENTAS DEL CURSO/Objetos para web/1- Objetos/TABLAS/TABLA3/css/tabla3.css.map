@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,KAAM;EACJ,QAAQ,EAAE,MAAM;EAChB,MAAM,EAAE,KAAK;EACb,KAAK,EAAE,KAAK;EAEZ,WAAM;IACJ,KAAK,EAAE,KAAK;IACZ,gBAAgB,EAAE,SAAS",
+"sources": ["../sass/tabla3.scss"],
+"names": [],
+"file": "tabla3.css"
+}

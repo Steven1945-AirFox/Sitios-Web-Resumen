@@ -1,0 +1,170 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono:wght@300&display=swap)
+
+$-pc-indigo: #3F51B5
+$-pc-cyan: #00BCD4
+$-pc-light-green: #8BC34A
+$-ti: #212121
+$-st: #757575
+$-dc: #BDBDBD
+$-dc-divider: 1px solid $-dc
+
+$black: #212121
+$white: #FFFFFF
+$quotep: 18px
+$minw: 8.3333%
+
+*
+    box-sizing: border-box
+
+html, body 
+    font-family: 'Roboto', sans-serif
+    color: $-ti
+    font-style: regular
+
+a
+    color: $-pc-indigo
+    &.lnk-pc-i
+        color: $-pc-indigo
+    
+    &.lnk-pc-s
+        color: $-pc-cyan
+    
+    &.lnk-pc-lg
+        color: $-pc-light-green
+
+code
+    font-family: 'Roboto Mono', monospace
+    font-size: 0.8em
+
+pre
+    background-color: #f8f9fa
+    font-family: 'Roboto Mono', monospace
+    font-size: 1em
+    padding: 5px
+    position: relative
+
+    &[data-lang-name]::after 
+        content: attr(data-lang-name)
+        position: absolute
+        top: 0
+        right: 24px
+        background-color: $black
+        color: $white
+        padding: 5px 10px
+        border-bottom-left-radius: 3px
+        border-bottom-right-radius: 3px
+
+kbd
+    font-family: 'Roboto Mono', monospace
+    background-color: $black
+    color: $white
+    padding: 0 3px
+    font-size: 0.8em
+    border-radius: 3px
+
+hr
+    border-top: $-dc-divider
+    border-bottom: none
+
+small 
+    font-size: 0.5em
+    color: $-st
+
+mark
+    background-color: #536DFE
+    color: $white
+    border-radius: 3px
+
+    &.mk-lpc-i
+        background-color: #536DFE
+        color: $white
+    
+    &.mk-lpc-s
+        background-color: #00BCD4
+        color: $white
+    
+    &.mk-lpc-lg
+        background-color: #8BC34A
+
+blockquote
+    padding: 6px $quotep
+    position: relative
+    border: $-dc-divider
+    border-radius: 5px
+
+    &[data-cite]
+        padding: 6px $quotep $quotep * 2 6px
+    
+    &[data-cite]::after 
+        content: attr(data-cite)
+        position: absolute
+        bottom: 4px
+        right: $quotep
+        color: $-st
+
+q
+    &::before
+        content: "\201C"
+
+    &::after
+        content: "\201E"
+
+
+.container
+    width: 100%
+    padding: 5px
+
+.row
+    width: 100%
+    display: flex
+    flex-direction: column
+
+[class*=col-]
+    flex-basis: 100%
+
+@media only screen and (min-width: 768px)
+    .container
+        width: 75%
+        padding: 5px
+        margin: auto
+
+    .row
+        flex-direction: unset
+        flex-flow: row wrap
+        justify-content: flex-start
+
+    .col-1
+        flex-basis: $minw
+
+    .col-2
+        flex-basis: $minw * 2
+
+    .col-3
+        flex-basis: $minw * 3
+
+    .col-4
+        flex-basis: $minw * 4
+
+    .col-5
+        flex-basis: $minw * 5
+
+    .col-6
+        flex-basis: $minw * 6
+
+    .col-7
+        flex-basis: $minw * 7
+
+    .col-8
+        flex-basis: $minw * 8
+
+    .col-9
+        flex-basis: $minw * 9
+
+    .col-10
+        flex-basis: $minw * 10
+
+    .col-11
+        flex-basis: $minw * 11
+
+    .col-12
+        flex-basis: 100%

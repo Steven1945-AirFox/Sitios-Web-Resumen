@@ -1,0 +1,26 @@
+@import "palette";
+@import "mixin";
+
+body{
+  background: $divider-color;
+}
+
+nav {
+  background: $primary-color-dark;
+  padding: 20px;
+}
+
+.columna{
+  @include border-radius(10px);
+  background: $primary-color;
+  color: $primary-color-text;
+  padding: 20px;
+  width: 25%;
+  margin: 20px;
+}
+.c1{
+	 @include border-radius(20px);
+}
+.c2{
+	 @include border-radius(50px);	
+}

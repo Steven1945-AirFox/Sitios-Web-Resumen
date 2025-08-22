@@ -1,0 +1,35 @@
+
+table#mitabla {border-collapse: collapse;}
+td.bajo {background-color: #ff455e;}
+td.medio {background-color: #d63e3e;}
+td.alto {background-color: #940014;}
+
+td.a {background-color: #ff455e;}
+td.b {background-color: #d63e3e;}
+td.c {background-color: #940014;}
+
+td.aaa {background-color: #ff455e;}
+td.bbb {background-color: #d63e3e;}
+td.ccc {background-color: #940014;}
+
+thead.cabecera tr td {
+    font-family: monospace;
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 15px;}
+
+tfoot.pie tr td {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Georgia;
+    padding: 2px;}
+
+tbody.cuerpo tr td {
+    color: #ebebeb;
+    padding: 10px;}
+
+td {border-style: solid;
+    border-color: #cccccc;
+ border-width: 1px;}
+ 

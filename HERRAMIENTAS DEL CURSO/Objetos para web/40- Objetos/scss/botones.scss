@@ -1,0 +1,652 @@
+$color1: #3F51B5;
+$color2: #303F9F;
+$color3: #00BCD4;
+$color4: #0097A7;
+$color5: #8BC34A;
+$color6: #689F38;
+$fondo1: #ffffff;
+$fondo2: #000000;
+$borderR: 25px;
+$tamano: 100px;
+$ancho: 10px;
+
+.btn-pc-i{ 
+    width: $tamano;
+    background: $color1;
+    padding: $ancho;
+    border: none;
+    border-radius: $borderR;
+    color: $fondo1;
+    cursor: pointer;
+}
+
+.btn-pc-i:hover{
+    background: $color2;
+}
+
+.btn-pc-i2{ 
+    width: $tamano;
+    background: $fondo1;
+    border: solid 2px $color1;
+    padding: $ancho;
+    border-radius: $borderR;
+    color: $color1;
+    cursor: pointer;
+}
+
+.btn-pc-i2:hover{
+    background: $color1;
+    color: $fondo1;
+}
+
+.btn-pc-c{
+    width: $tamano;
+    background: $color3;
+    padding: $ancho;
+    border: none;
+    border-radius: $borderR;
+    color: $fondo1;
+    cursor: pointer;
+}
+
+.btn-pc-c:hover{
+    background: $color4;
+}
+
+.btn-pc-c2{ 
+    width: $tamano;
+    background: $fondo1;
+    border: solid 2px $color3;
+    padding: $ancho;
+    border-radius: $borderR;
+    color: $color3;
+    cursor: pointer;
+}
+
+.btn-pc-c2:hover{
+    background: $color3;
+    color: $fondo1;
+}
+
+.btn-pc-l{
+    width: $tamano;
+    background: $color5;
+    padding: $ancho;
+    border: none;
+    border-radius: $borderR;
+    color: $fondo1;
+    cursor: pointer;
+}
+
+.btn-pc-l:hover{
+    background: $color6;
+}
+
+.btn-pc-l2{ 
+    width: $tamano;
+    background: $fondo1;
+    border: solid 2px $color5;
+    padding: $ancho;
+    border-radius: $borderR;
+    color: $color5;
+    cursor: pointer;
+}
+
+.btn-pc-l2:hover{
+    background: $color5;
+    color: $fondo1;
+}
+
+.btn-pc-i3{
+    width: $tamano;
+    background: $color1;
+    padding: $ancho;
+    border: none;
+    color: $fondo1;
+    cursor: pointer;
+}
+
+.btn-pc-i3:hover{
+    background: $color2;
+}
+
+.btn-pc-i4{ 
+    width: $tamano;
+    background: $fondo1;
+    border: solid 2px $color1;
+    padding: $ancho;
+    color: $color1;
+    cursor: pointer;
+}
+
+.btn-pc-i4:hover{
+    background: $color1;
+    color: $fondo1;
+}
+
+.btn-pc-c3{
+    width: $tamano;
+    background: $color3;
+    padding: $ancho;
+    border: none;
+    color: $fondo1;
+    cursor: pointer;
+}
+
+.btn-pc-c3:hover{
+    background: $color4;
+}
+
+.btn-pc-c4{ 
+    width: $tamano;
+    background: $fondo1;
+    border: solid 2px $color3;
+    padding: $ancho;
+    color: $color3;
+    cursor: pointer;
+}
+
+.btn-pc-c4:hover{
+    background: $color3;
+    color: $fondo1;
+}
+
+.btn-pc-l3{
+    width: $tamano;
+    background: $color5;
+    padding: $ancho;
+    border: none;
+    color: $fondo1;
+    cursor: pointer;
+}
+
+.btn-pc-l3:hover{
+    background: $color6;
+}
+
+.btn-pc-l4{ 
+    width: $tamano;
+    background: $fondo1;
+    border: solid 2px $color5;
+    padding: $ancho;
+    color: $color5;
+    cursor: pointer;
+}
+
+.btn-pc-l4:hover{
+    background: $color5;
+    color: $fondo1;
+}
+
+.btn-pc-i5{ 
+    width: $tamano;
+    background: $color1;
+    box-shadow:0px 0px 15px $color1;
+    padding: $ancho;
+    border: none;
+    border-radius: $borderR;
+    color: $fondo1;
+    cursor: pointer;
+}
+
+.btn-pc-i5:hover{
+    background: $color2;
+}
+
+.btn-pc-i6{ 
+    width: $tamano;
+    background: $fondo1;
+    border: solid 2px $color1;
+    box-shadow:0px 0px 15px $color1;
+    padding: $ancho;
+    border-radius: $borderR;
+    color: $color1;
+    cursor: pointer;
+}
+
+.btn-pc-i6:hover{
+    background: $color1;
+    color: $fondo1;
+}
+
+.btn-pc-c5{
+    width: $tamano;
+    background: $color3;
+    box-shadow:0px 0px 15px $color3;
+    padding: $ancho;
+    border: none;
+    border-radius: $borderR;
+    color: $fondo1;
+    cursor: pointer;
+}
+
+.btn-pc-c5:hover{
+    background: $color4;
+}
+
+.btn-pc-c6{ 
+    width: $tamano;
+    background: $fondo1;
+    border: solid 2px $color3;
+    box-shadow:0px 0px 15px $color3;
+    padding: $ancho;
+    border-radius: $borderR;
+    color: $color3;
+    cursor: pointer;
+}
+
+.btn-pc-c6:hover{
+    background: $color3;
+    color: $fondo1;
+}
+
+.btn-pc-l5{
+    width: $tamano;
+    background: $color5;
+    box-shadow:0px 0px 15px $color5;
+    padding: $ancho;
+    border: none;
+    border-radius: $borderR;
+    color: $fondo1;
+    cursor: pointer;
+}
+
+.btn-pc-l5:hover{
+    background: $color6;
+}
+
+.btn-pc-l6{ 
+    width: $tamano;
+    background: $fondo1;
+    border: solid 2px $color5;
+    box-shadow:0px 0px 15px $color5;
+    padding: $ancho;
+    border-radius: $borderR;
+    color: $color5;
+    cursor: pointer;
+}
+
+.btn-pc-l6:hover{
+    background: $color5;
+    color: $fondo1;
+}
+
+.btn-pc-i7{ 
+    width: $tamano;
+    background: $color1;
+    box-shadow:0px 0px 15px $color1;
+    padding: $ancho;
+    border: none;
+    color: $fondo1;
+    cursor: pointer;
+}
+
+.btn-pc-i7:hover{
+    background: $color2;
+}
+
+.btn-pc-i8{ 
+    width: $tamano;
+    background: $fondo1;
+    border: solid 2px $color1;
+    box-shadow:0px 0px 15px $color1;
+    padding: $ancho;
+    color: $color1;
+    cursor: pointer;
+}
+
+.btn-pc-i8:hover{
+    background: $color1;
+    color: $fondo1;
+}
+
+.btn-pc-c7{
+    width: $tamano;
+    background: $color3;
+    box-shadow:0px 0px 15px $color3;
+    padding: $ancho;
+    border: none;
+    color: $fondo1;
+    cursor: pointer;
+}
+
+.btn-pc-c7:hover{
+    background: $color4;
+}
+
+.btn-pc-c8{ 
+    width: $tamano;
+    background: $fondo1;
+    border: solid 2px $color3;
+    box-shadow:0px 0px 15px $color3;
+    padding: $ancho;
+    color: $color3;
+    cursor: pointer;
+}
+
+.btn-pc-c8:hover{
+    background: $color3;
+    color: $fondo1;
+}
+
+.btn-pc-l7{
+    width: $tamano;
+    background: $color5;
+    box-shadow:0px 0px 15px $color5;
+    padding: $ancho;
+    border: none;
+    color: $fondo1;
+    cursor: pointer;
+}
+
+.btn-pc-l7:hover{
+    background: $color6;
+}
+
+.btn-pc-l8{ 
+    width: $tamano;
+    background: $fondo1;
+    border: solid 2px $color5;
+    box-shadow:0px 0px 15px $color5;
+    padding: $ancho;
+    color: $color5;
+    cursor: pointer;
+}
+
+.btn-pc-l8:hover{
+    background: $color5;
+    color: $fondo1;
+}
+
+.btn-pc-i9{ 
+    width: $tamano;
+    background: $fondo2;
+    padding: $ancho;
+    border: none;
+    border-radius: $borderR;
+    color: $color1;
+    cursor: pointer;
+}
+
+.btn-pc-i10{ 
+    width: $tamano;
+    background: $fondo2;
+    border: solid 2px $color1;
+    padding: $ancho;
+    border-radius: $borderR;
+    color: $color1;
+    cursor: pointer;
+}
+
+.btn-pc-c9{
+    width: $tamano;
+    background: $fondo2;
+    padding: $ancho;
+    border: none;
+    border-radius: $borderR;
+    color: $color3;
+    cursor: pointer;
+}
+
+
+.btn-pc-c10{ 
+    width: $tamano;
+    background: $fondo2;
+    border: solid 2px $color3;
+    padding: $ancho;
+    border-radius: $borderR;
+    color: $color3;
+    cursor: pointer;
+}
+
+.btn-pc-l9{
+    width: $tamano;
+    background: $fondo2;
+    padding: $ancho;
+    border: none;
+    border-radius: $borderR;
+    color: $color5;
+    cursor: pointer;
+}
+
+.btn-pc-l10{ 
+    width: $tamano;
+    background: $fondo2;
+    border: solid 2px $color5;
+    padding: $ancho;
+    border-radius: $borderR;
+    color: $color5;
+    cursor: pointer;
+}
+
+.btn-pc-i11{ 
+    width: $tamano;
+    background: $fondo2;
+    padding: $ancho;
+    border: none;
+    color: $color1;
+    cursor: pointer;
+}
+
+.btn-pc-i12{ 
+    width: $tamano;
+    background: $fondo2;
+    border: solid 2px $color1;
+    padding: $ancho;
+    color: $color1;
+    cursor: pointer;
+}
+
+.btn-pc-c11{
+    width: $tamano;
+    background: $fondo2;
+    padding: $ancho;
+    border: none;
+    color: $color3;
+    cursor: pointer;
+}
+
+.btn-pc-c12{ 
+    width: $tamano;
+    background: $fondo2;
+    border: solid 2px $color3;
+    padding: $ancho;
+    color: $color3;
+    cursor: pointer;
+}
+
+.btn-pc-l11{
+    width: $tamano;
+    background: $fondo2;
+    padding: $ancho;
+    border: none;
+    color: $color5;
+    cursor: pointer;
+}
+
+.btn-pc-l12{ 
+    width: $tamano;
+    background: $fondo2;
+    border: solid 2px $color5;
+    padding: $ancho;
+    color: $color5;
+    cursor: pointer;
+}
+
+.btn-pc-i13{
+    width: $tamano;
+    background: $color1;
+    padding: $ancho;
+    border: none;
+    border-radius: 5px;
+    color: $fondo1;
+    cursor: pointer;
+}
+
+.btn-pc-i13:hover{
+    background: $color2;
+}
+
+.btn-pc-i14{ 
+    width: $tamano;
+    background: $fondo1;
+    border: solid 2px $color1;
+    border-radius: 5px;
+    padding: $ancho;
+    color: $color1;
+    cursor: pointer;
+}
+
+.btn-pc-i14:hover{
+    background: $color1;
+    color: $fondo1;
+}
+
+.btn-pc-c13{
+    width: $tamano;
+    background: $color3;
+    padding: $ancho;
+    border: none;
+    border-radius: 5px;
+    color: $fondo1;
+    cursor: pointer;
+}
+
+.btn-pc-c13:hover{
+    background: $color4;
+}
+
+.btn-pc-c14{ 
+    width: $tamano;
+    background: $fondo1;
+    border: solid 2px $color3;
+    border-radius: 5px;
+    padding: $ancho;
+    color: $color3;
+    cursor: pointer;
+}
+
+.btn-pc-c14:hover{
+    background: $color3;
+    color: $fondo1;
+}
+
+.btn-pc-l13{
+    width: $tamano;
+    background: $color5;
+    padding: $ancho;
+    border: none;
+    border-radius: 5px;
+    color: $fondo1;
+    cursor: pointer;
+}
+
+.btn-pc-l13:hover{
+    background: $color6;
+}
+
+.btn-pc-l14{ 
+    width: $tamano;
+    background: $fondo1;
+    border: solid 2px $color5;
+    border-radius: 5px;
+    padding: $ancho;
+    color: $color5;
+    cursor: pointer;
+}
+
+.btn-pc-l14:hover{
+    background: $color5;
+    color: $fondo1;
+}
+
+.btn-pc-i15{
+    width: $tamano;
+    background: $color1;
+    padding: $ancho;
+    border-left: solid 2px;
+    border-top: solid 2px;
+    border-radius: 5px;
+    color: $fondo1;
+    cursor: pointer;
+}
+
+.btn-pc-i15:hover{
+    background: $color2;
+}
+
+.btn-pc-c15{
+    width: $tamano;
+    background: $color3;
+    padding: $ancho;
+    border-left: solid 2px;
+    border-top: solid 2px;
+    border-radius: 5px;
+    color: $fondo1;
+    cursor: pointer;
+}
+
+.btn-pc-c15:hover{
+    background: $color4;
+}
+
+.btn-pc-l15{
+    width: $tamano;
+    background: $color5;
+    padding: $ancho;
+    border-radius: 5px;
+    border-left: solid 2px;
+    border-top: solid 2px;
+    color: $fondo1;
+    cursor: pointer;
+}
+
+.btn-pc-l15:hover{
+    background: $color6;
+}
+
+.btn-pc-i16{ 
+    width: $tamano;
+    background: $color1;
+    padding: $ancho;
+    border-left: solid 2px;
+    border-top: solid 2px;
+    border-radius: $borderR;
+    color: $fondo1;
+    cursor: pointer;
+}
+
+.btn-pc-i16:hover{
+    background: $color2;
+}
+
+.btn-pc-c16{
+    width: $tamano;
+    background: $color3;
+    padding: $ancho;
+    border-left: solid 2px;
+    border-top: solid 2px;
+    border-radius: $borderR;
+    color: $fondo1;
+    cursor: pointer;
+}
+
+.btn-pc-c16:hover{
+    background: $color4;
+}
+
+.btn-pc-l16{
+    width: $tamano;
+    background: $color5;
+    padding: $ancho;
+    border-left: solid 2px;
+    border-top: solid 2px;
+    border-radius: $borderR;
+    color: $fondo1;
+    cursor: pointer;
+}
+
+.btn-pc-l16:hover{
+    background: $color6;
+}
+

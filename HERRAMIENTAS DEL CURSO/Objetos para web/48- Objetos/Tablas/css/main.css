@@ -1,0 +1,138 @@
+.lineasColores {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 700px;
+  margin: 150px auto; }
+
+td, th {
+  border: 1px solid #BDBDBD;
+  text-align: left;
+  padding: 8px; }
+
+.lineasColores tr:nth-child(even) {
+  background-color: #BDBDBD; }
+
+.conBordes {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 700px;
+  margin: 150px auto;
+  border: 1px solid black; }
+
+p {
+  font-family: arial, sans-serif;
+  font-size: 30px;
+  text-align: center; }
+
+.celdasAnchas {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 700px;
+  margin: 150px auto;
+  border-collapse: collapse;
+  border: 1px solid black; }
+
+.celdasAnchas th, .celdasAnchas td {
+  padding: 15px; }
+
+.alineado_izq, th, td {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 700px;
+  margin: 150px auto;
+  border: 1px solid black;
+  border-collapse: collapse; }
+
+.alineado_izq th, .alineado_izq td {
+  padding: 5px; }
+.alineado_izq th {
+  text-align: left;
+  background-color: #8BC34A; }
+
+.espacio_borde, th, td {
+  border: 1px solid black;
+  padding: 5px; }
+
+.espacio_borde {
+  border-spacing: 15px; }
+  .espacio_borde th {
+    background-color: #8BC34A; }
+
+.celda_dosCampos, th, td {
+  border: 1px solid black;
+  border-collapse: collapse; }
+
+.celda_dosCampos {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 700px;
+  margin: 150px auto; }
+  .celda_dosCampos th, .celda_dosCampos td {
+    padding: 5px;
+    text-align: left; }
+
+.celda_dosCampos th {
+  background-color: #8BC34A; }
+
+.campo_dosFilas, th, td {
+  border: 1px solid black;
+  border-collapse: collapse; }
+
+.campo_dosFilas {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 700px;
+  margin: 150px auto; }
+  .campo_dosFilas th, .campo_dosFilas td {
+    padding: 5px;
+    text-align: left; }
+
+.campo_dosFilas th {
+  background-color: #8BC34A; }
+
+.TablaColor {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 700px;
+  margin: 150px auto;
+  border-collapse: collapse; }
+  .TablaColor th, .TablaColor td {
+    text-align: left;
+    padding: 8px; }
+  .TablaColor tr:nth-child(even) {
+    background-color: #BDBDBD; }
+  .TablaColor th {
+    background-color: #8BC34A;
+    color: white; }
+
+.ColumSinDivision {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 700px;
+  margin: 150px auto;
+  border-collapse: collapse; }
+
+.ColumSinDivision th, .ColumSinDivision td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd; }
+
+.ColumSinDivision th {
+  background-color: #8BC34A; }
+
+.TablaS {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 700px;
+  margin: 150px auto;
+  border-collapse: collapse; }
+  .TablaS th, .TablaS td {
+    text-align: left;
+    padding: 8px; }
+  .TablaS tr:nth-child(even) {
+    background-color: #BDBDBD; }
+  .TablaS th {
+    background-color: #3F51B5;
+    color: white; }
+
+/*# sourceMappingURL=main.css.map */

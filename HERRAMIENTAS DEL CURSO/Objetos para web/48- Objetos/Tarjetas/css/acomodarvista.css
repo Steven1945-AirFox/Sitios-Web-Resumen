@@ -1,0 +1,35 @@
+.contenedorT1 + .contenedorT2{
+	margin-top: 17em;
+}
+
+.contenedorT2 + .contenedorT3{
+	margin-top: 34em;
+}
+
+.contenedorT3 + .contenedorT4{
+	margin-top: 60em;
+}
+
+.contenedorT4 + .contenedorT5{
+	margin-top: 86em;
+}
+
+.contenedorT5 + .contenedorT6{
+	margin-top: 112em;
+}
+
+.contenedorT6 + .contenedorT7{
+	margin-top: 138em;
+}
+
+.contenedorT7 + .contenedorT8{
+	margin-top: 170em;
+}
+
+.contenedorT8 + .contenedorT9{
+	margin-top: 188em;
+}
+
+.contenedorT9 + .contenedorT10{
+	margin-top: 214em;
+}

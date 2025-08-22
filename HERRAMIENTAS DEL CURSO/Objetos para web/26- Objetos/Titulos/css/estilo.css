@@ -1,0 +1,48 @@
+.titulo1 {
+  color: #FF5722;
+  font-size: 25px;
+  text-align: center; }
+
+.titulo1:hover {
+  opacity: 0.5; }
+
+.titulo2 {
+  color: #689F38;
+  font-size: 25px;
+  text-align: center; }
+
+.titulo2:hover {
+  color: #8BC34A;
+  text-decoration: underline; }
+
+.titulo3 {
+  color: #512DA8;
+  font-size: 24px;
+  text-decoration: underline;
+  text-align: center; }
+
+.titulo3:hover {
+  color: #E040FB;
+  text-decoration: overline; }
+
+.titulo4 {
+  color: #F57C00;
+  font-size: 24px;
+  text-decoration: line-through;
+  text-align: center; }
+
+.titulo4:hover {
+  text-decoration: none;
+  color: #F57C00; }
+
+.titulo5 {
+  color: #1976D2;
+  font-size: 24px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  text-align: center; }
+
+.titulo5:hover {
+  opacity: 0.5;
+  color: #536DFE; }
+
+/*# sourceMappingURL=estilo.css.map */

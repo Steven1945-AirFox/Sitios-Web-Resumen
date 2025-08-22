@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": ";AAGA,IAAI;EACH,UAAU,ECDY,OAAO;EDE7B,SAAS,EELa,IAAI;;AFO3B,EAAE;EACD,KAAK,ECHiB,OAAO;;ADI9B,CAAC;EACA,KAAK,ECNiB,OAAO",
+"sources": ["../sass/main.sass","../sass/_palette.sass","../sass/_variables.sass"],
+"names": [],
+"file": "main.css"
+}

@@ -1,0 +1,425 @@
+*{
+  margin: 0;
+}
+.container{
+  width: 80%;
+  margin: 0 auto;
+  background-color: rgb(240,240,240);
+  margin-top: 20px;
+}
+
+.tablaHor th{
+min-width: 1px;
+max-width: 10px;
+}
+
+.tabla1 {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border: 1px solid #000;
+    border-collapse: collapse;
+    height: auto;
+}
+
+.tabla1 th {
+    background-color: #fca311;
+    padding: 10px;
+    color: #fff;
+    height: 25px;
+}
+
+.tabla1 td {
+    padding: 10px;
+    height: 20px;
+}
+.tabla1 tr{
+  background-color: #fff;
+}
+
+.tabla1 tr:nth-child(even) {
+    background-color: #fff3e0;
+}
+
+.tabla1 tr:hover{
+  background-color: #fcb311;
+  transition: 1s;
+    color:white;
+}
+
+.tabla2 {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border: 1px solid #000;
+    border-collapse: collapse;
+    height: auto;
+}
+
+.tabla2 th {
+    background-color: #4ecdc4;
+    padding: 10px;
+    color: #fff;
+    height: 25px;
+}
+
+.tabla2 td {
+    padding: 10px;
+    height: 20px;
+}
+.tabla2 tr{
+  background-color: #fff;
+}
+
+.tabla2 tr:nth-child(even) {
+    background-color: #99F8F1;
+}
+
+.tabla2 td:hover{
+  background-color: #45B5AD;
+  transition: 1s;
+  color:white;
+}
+
+.tabla3 {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border: 1px solid #000;
+    border-collapse: collapse;
+    height: auto;
+}
+
+.tabla3 th {
+    background-color: #00bbf9;
+    padding: 10px;
+    color: #fff;
+    height: 25px;
+}
+
+.tabla3 td {
+    padding: 10px;
+    height: 20px;
+}
+.tabla3 tr{
+  background-color: #fff;
+}
+
+.tabla3 tr:nth-child(even) {
+    background-color: #BFEFFF;
+}
+
+.tabla3 tr:hover{
+  background-color: #79bfff;
+    transition: 1s;
+
+}
+
+.tabla3 td:hover{
+  color:white;
+  background-color: #09b3ff;
+  transition: 1s;
+}
+
+.tabla4 {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    /*border: 1px solid #000;*/
+    border-collapse: collapse;
+    height: auto;
+}
+
+.tabla4 th {
+    background-color: #6930c3;
+    padding: 10px;
+    color: #fff;
+    height: 25px;
+}
+
+.tabla4 td {
+    padding: 10px;
+    height: 20px;
+    border-bottom: 1px solid #6930c3;
+}
+.tabla4 tr{
+  background-color: transparent;
+}
+
+.tabla4 tr:hover{
+  background-color: #9554FC;
+  transition: 1s;
+  color:white;
+}
+
+.tabla5 {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    /*border: 1px solid #000;*/
+    border-collapse: collapse;
+    height: auto;
+}
+
+.tabla5 th {
+    background-color: #ef233c;
+    padding: 10px;
+    color: #fff;
+    height: 25px;
+}
+
+.tabla5 td {
+    padding: 10px;
+    height: 20px;
+    border-bottom: 1px solid #ef233c;
+}
+.tabla5 tr{
+  background-color: transparent;
+}
+
+.tabla5 tr:hover{
+  background-color: #F55F71;
+    transition: 1s;
+
+}
+
+.tabla5 td:hover{
+  color:white;
+  background-color: #EA465A;
+  transition: 1s;
+}
+
+
+.tabla6 {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-collapse: collapse;
+    height: auto;
+}
+
+.tabla6 th {
+    background-color: #b2f7ef;
+    padding: 10px;
+    color: #606060;
+    height: 25px;
+}
+
+.tabla6 td {
+    padding: 10px;
+    height: 20px;
+    border-bottom: 1px solid #b2f7ef;
+    color: white;
+}
+.tabla6 tr{
+  background-color: #a1a1a1;
+}
+
+.tabla6 td:hover{
+  background-color: #AAEAE2;
+  color:black;
+  transition: 1s;
+}
+
+
+.tabla7 {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border: 1px solid #1b3b6f ;
+    border-collapse: collapse;
+    height: auto;
+}
+
+.tabla7 th {
+    background-color: #1b3b6f ;
+    padding: 10px;
+    color: #fff;
+    height: 25px;
+}
+
+.tabla7 td {
+    padding: 10px;
+    height: 20px;
+    border-left: 1px solid #1b3b6f;
+}
+.tabla7 tr{
+  background-color: #fff;
+}
+
+.tabla7 tr:nth-child(even) {
+    background-color: #C0D8FF;
+}
+
+.tabla7 tr:hover{
+  background-color: #1A3868;
+  transition: 1s;
+  color: white;
+}
+
+.tabla7 td:hover{
+  color:white;
+  background-color: #254B87;
+  transition: 1s;
+}
+
+
+.tabla8 {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border: 1px solid #8d99ae;
+    border-collapse: collapse;
+    height: auto;
+}
+
+.tabla8 th {
+    background-color: #8d99ae;
+    padding: 10px;
+    color: #fff;
+    height: 25px;
+}
+
+.tabla8 td {
+    padding: 10px;
+    height: 20px;
+    border-left: 1px solid #8d99ae;
+}
+.tabla8 tr{
+  background-color: #fff;
+}
+
+.tabla8 tr:nth-child(even) {
+    background-color: #eee;
+}
+
+.tabla8 tr:hover{
+  transition: 1s;
+  background: linear-gradient(to left, #fff, #ddd);
+  color: black;
+}
+
+.tabla8 td:hover{
+  color:white;
+  background-color: #747F95;
+  transition: 1s;
+}
+
+.tabla9 {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border: 1px solid #702632;
+    border-collapse: collapse;
+    height: auto;
+}
+
+.tabla9 th {
+    background-color: #702632;
+    padding: 10px;
+    color: #fff;
+    height: 25px;
+}
+
+.tabla9 td {
+    padding: 10px;
+    height: 20px;
+    border-bottom: 1px solid #702632;
+}
+.tabla9 tr{
+  background: linear-gradient(to left, #ddd, #fff);
+}
+
+.tabla9 tr:hover{
+  transition: 1s;
+  background: linear-gradient(to left, #DC96A1, #702632);
+  color: white;
+}
+
+.tabla8 td:hover{
+  color:white;
+  background-color: #747F95;
+  transition: 1s;
+}
+
+.tabla10 {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border: 1px solid #73a580;
+    border-collapse: collapse;
+    height: auto;
+}
+
+.tabla10 th {
+    background-color: #73a580;
+    padding: 10px;
+    color: #fff;
+    height: 25px;
+}
+
+.tabla10 td {
+    padding: 10px;
+    height: 20px;
+    border-bottom: 1px solid #73a580;
+}
+.tabla10 tr{
+  background: linear-gradient(to left, #E2FAE8, #fff);
+}
+
+.tabla10 tr:hover{
+  transition: 1s;
+  background: linear-gradient(to left, #fff, #E2FAE8);
+  color: #73a580;
+}
+
+/* -------------Responsive------------------*/
+@media screen and (max-width: 580px) {
+.container{
+  height: 600px;
+}
+table{
+  border:0;
+}
+table tr {
+  margin-bottom: 10px;
+  display:block;
+  border-bottom: 2px solid #000;
+
+}
+
+table td {
+  display: block;
+  text-align: right;
+  font-size: 16px;
+  border-bottom: 1px dotted #000;
+}
+
+table td:last-child{
+  border-bottom: 0;
+}
+
+table td::before{
+  content: attr(data-label);
+  float: left;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+table thead{
+  display: none;
+}
+.cab{
+  display: block !important;
+}
+
+}

@@ -1,0 +1,1853 @@
+
+body{
+
+
+}
+
+/*btn-circulo*/
+.btn-circulo-Naranja{
+	background:#fca311;
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+    border-style: none;
+    border-radius: 60%;
+    font-size: 20px;
+ 
+    color: white;
+}
+.btn-circulo-Naranja:hover{
+	padding: 1.5%;
+	font-size: 25px;
+	
+	background: (218, 136, 0, 0.5);
+}
+
+.btn-circulo-Celeste-Verde{
+	background:#4ecdc4;
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+    border-style: none;
+    border-radius: 60%;
+    font-size: 20px;
+    
+    color: white;
+}
+.btn-circulo-Celeste-Verde:hover{
+	padding: 1.5%;
+	font-size: 25px;
+
+	background: (78, 205, 196, 0.5);
+}
+
+.btn-circulo-Celeste{
+	background:#00bbf9;
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+    border-style: none;
+    border-radius: 60%;
+    font-size: 20px;
+    
+    color: white;
+}
+.btn-circulo-Celeste:hover{
+	padding: 1.5%;
+	font-size: 25px;
+	
+	background: (0, 187, 249 , 0.5);
+}
+
+.btn-circulo-Morado{
+	background:#6930c3;
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+    border-style: none;
+    border-radius: 60%;
+    font-size: 20px;
+    
+    color: white;
+}
+.btn-circulo-Morado:hover{
+	padding: 1.5%;
+	font-size: 25px;
+	background: (105, 48, 195, 0.5);
+}
+
+.btn-circulo-Rojo{
+	background:#ef233c;
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+    border-style: none;
+    border-radius: 60%;
+    font-size: 20px;
+    color: white;
+}
+.btn-circulo-Rojo:hover{
+	padding: 1.5%;
+	font-size: 25px;
+		background: (239, 35, 60, 0.5);
+}
+
+.btn-circulo-Celeste-Pastel{
+	background:#b2f7ef;
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+    border-style: none;
+    border-radius: 60%;
+    font-size: 20px;
+     color: white;
+
+}
+.btn-circulo-Celeste-Pastel:hover{
+	padding: 1.5%;
+	font-size: 25px;
+	background: (178, 247, 239 , 0.5);
+}
+
+.btn-circulo-Azul{
+	background:#1b3b6f;
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+    border-style: none;
+    border-radius: 60%;
+    font-size: 20px;
+       color: white;
+}
+
+.btn-circulo-Azul:hover{
+	padding: 1.5%;
+	font-size: 25px;
+	background: (27, 59, 111, 0.5);
+}
+
+.btn-circulo-Gris{
+	background:#8d99ae;
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+    border-style: none;
+    border-radius: 60%;
+    font-size: 20px;
+     color: white;
+
+}
+.btn-circulo-Gris:hover{
+	padding: 1.5%;
+	font-size: 25px;
+	background: (141, 153, 174 , 0.5);
+}
+
+.btn-circulo-Vino{
+	background:#702632;
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+    border-style: none;
+    border-radius: 60%;
+    font-size: 20px;
+    color: white;
+}
+.btn-circulo-Vino:hover{
+	padding: 1.5%;
+	font-size: 25px;
+	background: (112, 38, 50, 0.5);
+}
+
+.btn-circulo-Verde{
+	background:#73a580 ;
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+    border-style: none;
+    border-radius: 60%;
+    font-size: 20px;
+     color: white;
+}
+
+.btn-circulo-Verde:hover{
+	padding: 1.5%;
+	font-size: 25px;
+	background: (115, 165, 128, 0.5);
+}
+/*#end btn-circulo*/
+
+
+/*btn-cuadrado*/
+.btn-cuadrado-Naranja{
+	background:#fca311;
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+    border-style: none;
+  border-radius: 10%;
+    font-size: 20px;
+    color: white;
+}
+.btn-cuadrado-Naranja:hover{
+	padding: 1.5%;
+	font-size: 25px;
+	background: (218, 136, 0, 0.5);
+}
+
+.btn-cuadrado-Celeste-Verde{
+	background:#4ecdc4;
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+    border-style: none;
+    border-radius: 10%;
+    font-size: 20px;
+    color: white;
+}
+.btn-cuadrado-Celeste-Verde:hover{
+	padding: 1.5%;
+	font-size: 25px;
+	background: (78, 205, 196, 0.5);
+}
+
+.btn-cuadrado-Celeste{
+	background:#00bbf9;
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+    border-style: none;
+   border-radius: 10%;
+    font-size: 20px;
+    color: white;
+}
+.btn-cuadrado-Celeste:hover{
+	padding: 1.5%;
+	font-size: 25px;
+	background: (0, 187, 249 , 0.5);
+}
+
+.btn-cuadrado-Morado{
+	background:#6930c3;
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+    border-style: none;
+    border-radius: 10%;
+    font-size: 20px;
+    color: white;
+}
+.btn-cuadrado-Morado:hover{
+	padding: 1.5%;
+	font-size: 25px;
+	background: (105, 48, 195, 0.5);
+}
+
+.btn-cuadrado-Rojo{
+	background:#ef233c;
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+    border-style: none;
+   border-radius: 10%;
+    font-size: 20px;
+    color: white;
+}
+.btn-cuadrado-Rojo:hover{
+	padding: 1.5%;
+	font-size: 25px;
+	background: (239, 35, 60, 0.5);
+}
+
+.btn-cuadrado-Celeste-Pastel{
+	background:#b2f7ef;
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+    border-style: none;
+   border-radius: 10%;
+    font-size: 20px;
+     color: white;
+
+}
+.btn-cuadrado-Celeste-Pastel:hover{
+	padding: 1.5%;
+	font-size: 25px;
+	background: (178, 247, 239 , 0.5);
+}
+
+.btn-cuadrado-Azul{
+	background:#1b3b6f;
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+    border-style: none;
+   border-radius: 10%;
+    font-size: 20px;
+       color: white;
+}
+
+.btn-cuadrado-Azul:hover{
+	padding: 1.5%;
+	font-size: 25px;
+	background: (27, 59, 111, 0.5);
+}
+
+.btn-cuadrado-Gris{
+	background:#8d99ae;
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+    border-style: none;
+    border-radius: 10%;
+    font-size: 20px;
+     color: white;
+
+}
+.btn-cuadrado-Gris:hover{
+	padding: 1.5%;
+	font-size: 25px;
+	background: (141, 153, 174 , 0.5);
+}
+
+.btn-cuadrado-Vino{
+	background:#702632;
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+    border-style: none;
+    border-radius: 10%;
+    font-size: 20px;
+    color: white;
+}
+.btn-cuadrado-Vino:hover{
+	padding: 1.5%;
+	font-size: 25px;
+	background: (112, 38, 50, 0.5);
+}
+
+.btn-cuadrado-Verde{
+	background:#73a580 ;
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+    border-style: none;
+    border-radius: 10%;
+    font-size: 20px;
+     color: white;
+}
+
+.btn-cuadrado-Verde:hover{
+	padding: 1.5%;
+	font-size: 25px;
+	background: (115, 165, 128, 0.5);
+}
+/*#end btn-cuadrado*/
+
+/*btn-brillante*/
+.btn-brillante-Naranja{
+	border-color:#fca311;
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+  border-radius: 6%;
+    font-size: 20px;
+  
+    color: #fca311;
+}
+.btn-brillante-Naranja:hover{
+	padding: 1.5%;
+	font-size: 25px;
+	width: 10%;
+	box-shadow: 0px 0px 15px 6px #fca311;
+}
+
+.btn-brillante-Celeste-Verde{
+	border-color:#4ecdc4;
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+    border-radius: 6%;
+    font-size: 20px;
+  
+    color: #4ecdc4;
+}
+.btn-brillante-Celeste-Verde:hover{
+	padding: 1.5%;
+	font-size: 25px;
+	
+	box-shadow: 0px 0px 15px 6px #4ecdc4;
+}
+
+.btn-brillante-Celeste{
+	border-color:#00bbf9;
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+   border-radius: 6%;
+    font-size: 20px;
+   
+    color:#00bbf9;
+}
+.btn-brillante-Celeste:hover{
+	padding: 1.5%;
+	font-size: 25px;
+	width: 10%;
+	box-shadow: 0px 0px 15px 6px #00bbf9;
+}
+
+.btn-brillante-Morado{
+	border-color:#6930c3;
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+   border-radius: 6%;
+    font-size: 20px;
+    color:#6930c3;
+}
+.btn-brillante-Morado:hover{
+	padding: 1.5%;
+	font-size: 25px;
+	
+	box-shadow: 0px 0px 15px 6px #6930c3;
+}
+
+.btn-brillante-Rojo{
+	border-color:#ef233c;
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+   border-radius: 6%;
+    font-size: 20px;
+    
+    color: #ef233c;
+}
+.btn-brillante-Rojo:hover{
+	padding: 1.5%;
+	font-size: 25px;
+	
+	box-shadow: 0px 0px 15px 6px #ef233c;
+}
+
+.btn-brillante-Celeste-Pastel{
+	border-color:#b2f7ef;
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+   border-radius: 6%;
+    font-size: 20px;
+    
+     color: #b2f7ef;
+
+}
+.btn-brillante-Celeste-Pastel:hover{
+	padding: 1.5%;
+	font-size: 25px;
+	
+	box-shadow: 0px 0px 15px 6px #b2f7ef;
+}
+
+.btn-brillante-Azul{
+	border-color:#1b3b6f;
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+   border-radius: 6%;
+    font-size: 20px;
+  ;
+       color: #1b3b6f;
+}
+
+.btn-brillante-Azul:hover{
+	padding: 1.5%;
+	font-size: 25px;
+	
+	box-shadow: 0px 0px 15px 6px #1b3b6f;
+}
+
+.btn-brillante-Gris{
+	border-color:#8d99ae;
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+    border-radius: 6%;
+    font-size: 20px;
+  
+     color: #8d99ae;
+
+}
+.btn-brillante-Gris:hover{
+	padding: 1.5%;
+	font-size: 25px;
+	
+	box-shadow: 0px 0px 15px 6px #8d99ae;
+}
+
+.btn-brillante-Vino{
+	border-color:#702632;
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+    border-radius: 6%;
+    font-size: 20px;
+   
+    color: #702632;
+}
+.btn-brillante-Vino:hover{
+	padding: 1.5%;
+	font-size: 25px;
+	
+	box-shadow: 0px 0px 15px 6px #702632;
+}
+
+.btn-brillante-Verde{
+	border-color:#73a580;
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+    border-radius: 6%;
+    font-size: 20px;
+   
+     color: #73a580;
+}
+
+.btn-brillante-Verde:hover{
+	padding: 1.5%;
+	font-size: 25px;
+	
+	box-shadow: 0px 0px 15px 6px #73a580;
+
+}
+/*#end btn-brillante*/
+
+/*btn-3d*/
+.btn-3d-Naranja{
+	background:#fca311;
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+  border-radius: 6%;
+    font-size: 20px;
+    
+    color: white;
+    border: 2px outset #EB9810;
+    border-right: 7px outset #E9960F;
+    border-bottom: 7px outset #EB9810;
+}
+.btn-3d-Naranja:hover{
+	
+	
+	background:#FCAC28;
+}
+
+.btn-3d-Celeste-Verde{
+	background:#4ecdc4;
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+    border-radius: 6%;
+    font-size: 20px;
+    
+    color: white;
+    border: 2px outset #43ABA4;
+    border-right: 7px outset #40A29C;
+    border-bottom: 7px outset #43ABA4;
+}
+.btn-3d-Celeste-Verde:hover{
+
+	
+	background:#55DCD3;
+}
+
+.btn-3d-Celeste{
+	background:#00bbf9;
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+   border-radius: 6%;
+    font-size: 20px;
+   
+    color:white;
+    border: 2px outset #03B3ED;
+    border-right: 7px outset #02AAE1;
+    border-bottom: 7px outset #03B3ED;
+}
+.btn-3d-Celeste:hover{
+	
+	
+	background:#10C2FC;
+}
+
+.btn-3d-Morado{
+	background:#6930c3;
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+   border-radius: 6%;
+    font-size: 20px;
+   
+    color:white;
+    border: 2px outset #612CB5;
+    border-right: 7px outset #5E2BAE;
+    border-bottom: 7px outset #612CB5;
+}
+.btn-3d-Morado:hover{
+	
+	
+	background:#793BDC;
+}
+
+.btn-3d-Rojo{
+	background:#ef233c;
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+   border-radius: 6%;
+    font-size: 20px;
+   
+    color: white;
+    border: 2px outset #E32139;
+    border-right: 7px outset #D72137;
+    border-bottom: 7px outset #E32139;
+}
+.btn-3d-Rojo:hover{
+	
+	
+	background:#F13048;
+}
+
+.btn-3d-Celeste-Pastel{
+	background:#b2f7ef;
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+   border-radius: 6%;
+    font-size: 20px;
+   
+     color: #22867B;
+     border: 2px outset #91E4DA;
+    border-right: 7px outset #81D6CC;
+    border-bottom: 7px outset #91E4DA;
+
+}
+.btn-3d-Celeste-Pastel:hover{
+	
+	
+	background:#D6FCF8;
+}
+
+.btn-3d-Azul{
+	background:#1b3b6f;
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+   border-radius: 6%;
+    font-size: 20px;
+ 
+       color:white;
+       border: 2px outset #15305D;
+    border-right: 7px outset #0E254C;
+    border-bottom: 7px outset #15305D;
+}
+
+.btn-3d-Azul:hover{
+	
+	
+	background:#294E8C;
+}
+
+.btn-3d-Gris{
+	background:#8d99ae;
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+    border-radius: 6%;
+    font-size: 20px;
+   
+     color: white;
+     border: 2px outset #7E8899;
+    border-right: 7px outset #6C737F;
+    border-bottom: 7px outset #7E8899;
+
+}
+.btn-3d-Gris:hover{
+	
+	background:#A6AFC0;
+}
+
+.btn-3d-Vino{
+	background:#702632;
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+    border-radius: 6%;
+    font-size: 20px;
+
+    color: white;
+    border: 2px outset #6A2430;
+    border-right: 7px outset #5F212B;
+    border-bottom: 7px outset #6A2430;
+}
+.btn-3d-Vino:hover{
+	
+	background:#853542;
+}
+
+.btn-3d-Verde{
+	background:#73a580;
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+    border-radius: 6%;
+    font-size: 20px;
+    color: white;
+    border: 2px outset #648A6E;
+    border-right: 7px outset #648A6E;
+    border-bottom: 7px outset #648A6E;
+}
+
+.btn-3d-Verde:hover{
+	
+	background:#86BD94;
+
+}
+/*#end btn-3d*/
+
+/*btn-abstracto*/
+.btn-abstracto-Naranja{
+	background:rgb(252, 163, 17 , 0.2);
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+  border-radius: 6%;
+    font-size: 20px;
+    color: #fca311;
+    border: 5px ridge #fca311;
+	border-radius: 26px 0px 31px 0px;
+}
+
+.btn-abstracto-Naranja:hover{
+	color: white;
+	background:#FCAC28;
+}
+
+.btn-abstracto-Celeste-Verde{
+	background:rgb(78, 205, 196, 0.2);
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+    border-radius: 6%;
+    font-size: 20px;
+    color:#4ecdc4;
+    border: 5px ridge #4ecdc4;
+	border-radius: 26px 0px 31px 0px;
+   
+}
+.btn-abstracto-Celeste-Verde:hover{
+ color: white;
+	background:#55DCD3;
+}
+
+.btn-abstracto-Celeste{
+	background:rgb(0, 187, 240, 0.2);
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+   border-radius: 6%;
+    font-size: 20px;
+    color:#00bbf9;
+    border: 5px ridge #00bbf9;
+	border-radius: 26px 0px 31px 0px;
+  
+}
+.btn-abstracto-Celeste:hover{
+	color: white;
+	background:#10C2FC;
+}
+
+.btn-abstracto-Morado{
+	background:rgb(105, 48, 195, 0.2);
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+   border-radius: 6%;
+    font-size: 20px;
+    color:#6930c3;
+    border: 5px ridge #6930c3;
+	border-radius: 26px 0px 31px 0px;
+
+}
+.btn-abstracto-Morado:hover{
+	color:white;
+	background:#793BDC;
+}
+
+.btn-abstracto-Rojo{
+	background:rgb(239, 35, 60 , 0.2);
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+   border-radius: 6%;
+    font-size: 20px;
+    color:#ef233c;
+    border: 5px ridge #ef233c;
+	border-radius: 26px 0px 31px 0px;
+  
+}
+.btn-abstracto-Rojo:hover{
+	color:white;
+	background:#F13048;
+}
+
+.btn-abstracto-Celeste-Pastel{
+	background:rgb(178, 247, 239, 0.2);
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+   border-radius: 6%;
+    font-size: 20px;
+     color: #b2f7ef;
+    border: 5px ridge #b2f7ef;
+	border-radius: 26px 0px 31px 0px;
+}
+.btn-abstracto-Celeste-Pastel:hover{
+	color:white;
+	background:#D6FCF8;
+}
+
+.btn-abstracto-Azul{
+	background:rgb(27, 59, 111, 0.2);
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+   border-radius: 6%;
+    font-size: 20px;
+     color:#1b3b6f;
+    border: 5px ridge #1b3b6f;
+	border-radius: 26px 0px 31px 0px;
+
+      
+}
+
+.btn-abstracto-Azul:hover{
+	color: white;
+	background:#294E8C;
+}
+
+.btn-abstracto-Gris{
+	background:rgb(141, 153, 174, 0.2);
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+    border-radius: 6%;
+    font-size: 20px;
+     color: #8d99ae;
+        border: 5px ridge #8d99ae;
+	border-radius: 26px 0px 31px 0px;
+    
+
+}
+.btn-abstracto-Gris:hover{
+	color: white;
+	background:#A6AFC0;
+}
+
+.btn-abstracto-Vino{
+	background:rgb(112, 38, 50, 0.2);
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+    border-radius: 6%;
+    font-size: 20px;
+    color: #702632;
+       border: 5px ridge #702632;
+	border-radius: 26px 0px 31px 0px;
+   
+}
+.btn-abstracto-Vino:hover{
+	color: white;
+	background:#853542;
+}
+
+.btn-abstracto-Verde{
+	background:rgb(115, 165, 128, 0.2);
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+    border-radius: 6%;
+    font-size: 20px;
+    color:#73a580;
+       border: 5px ridge #73a580;
+	border-radius: 26px 0px 31px 0px;
+    }
+
+.btn-abstracto-Verde:hover{
+	color: white;
+	background:#86BD94;
+
+}
+/*#end btn-abstracto*/
+
+
+/*btn-lados*/
+.btn-lados-Naranja{
+	border:none;
+	padding: 1%;
+	background-color: transparent;
+	border-left: 2px inset #fca311;
+	border-right: 2px inset #fca311;
+	color:#fca311;   
+}
+
+.btn-lados-Naranja:hover{
+
+	border:none;
+	border-top: 2px inset #fca311;
+	border-bottom: 2px inset #fca311;
+}
+
+.btn-lados-Celeste-Verde{
+	border:none;
+	padding: 1%;
+	background-color: transparent;
+	border-left: 2px inset #4ecdc4;
+	border-right: 2px inset #4ecdc4;
+	color:#4ecdc4;
+   
+}
+.btn-lados-Celeste-Verde:hover{
+ 	
+	border:none;
+	border-top: 2px inset #4ecdc4;
+	border-bottom: 2px inset #4ecdc4;
+}
+
+.btn-lados-Celeste{
+	border:none;
+	padding: 1%;
+	background-color: transparent;
+	border-left: 2px inset #00bbf9;
+	border-right: 2px inset #00bbf9;
+	color:#00bbf9; 
+  
+}
+.btn-lados-Celeste:hover{
+	border:none;
+	border-top: 2px inset #00bbf9;
+	border-bottom: 2px inset #00bbf9;
+}
+
+.btn-lados-Morado{
+	border:none;
+	padding: 1%;
+	background-color: transparent;
+	border-left: 2px inset #6930c3;
+	border-right: 2px inset #6930c3;
+	color:#6930c3; 
+
+}
+.btn-lados-Morado:hover{
+	border:none;
+	border-top: 2px inset #6930c3;
+	border-bottom: 2px inset #6930c3;
+}
+
+.btn-lados-Rojo{
+	border:none;
+	padding: 1%;
+	background-color: transparent;
+	border-left: 2px inset #ef233c;
+	border-right: 2px inset #ef233c;
+	color:#ef233c; 
+  
+}
+.btn-lados-Rojo:hover{
+	border:none;
+	border-top: 2px inset #ef233c;
+	border-bottom: 2px inset #ef233c;
+}
+
+.btn-lados-Celeste-Pastel{
+	border:none;
+	padding: 1%;
+	background-color: transparent;
+	border-left: 2px inset #b2f7ef ;
+	border-right: 2px inset #b2f7ef ;
+	color:#7BB3AC; 
+}
+.btn-lados-Celeste-Pastel:hover{
+	border:none;
+	border-top: 2px inset #b2f7ef ;
+	border-bottom: 2px inset #b2f7ef ;
+}
+
+.btn-lados-Azul{
+	border:none;
+	padding: 1%;
+	background-color: transparent;
+	border-left: 2px inset #1b3b6f;
+	border-right: 2px inset #1b3b6f;
+	color:#1b3b6f; 
+   
+}
+
+.btn-lados-Azul:hover{
+	border:none;
+	border-top: 2px inset #1b3b6f;
+	border-bottom: 2px inset #1b3b6f;
+}
+
+.btn-lados-Gris{
+	border:none;
+	padding: 1%;
+	background-color: transparent;
+	border-left: 2px inset #8d99ae;
+	border-right: 2px inset #8d99ae;
+	color:#8d99ae; 
+}
+.btn-lados-Gris:hover{
+	border:none;
+	border-top: 2px inset #8d99ae;
+	border-bottom: 2px inset #8d99ae;
+}
+
+.btn-lados-Vino{
+	border:none;
+	padding: 1%;
+	background-color: transparent;
+	border-left: 2px inset #702632;
+	border-right: 2px inset #702632;
+	color:#702632; 
+   
+}
+.btn-lados-Vino:hover{
+	border:none;
+	border-top: 2px inset #702632;
+	border-bottom: 2px inset #702632;
+}
+
+.btn-lados-Verde{
+	border:none;
+	padding: 1%;
+	background-color: transparent;
+	border-left: 2px inset #73a580;
+	border-right: 2px inset #73a580;
+	color:#73a580; 
+    }
+
+.btn-lados-Verde:hover{
+	border:none;
+	border-top: 2px inset #73a580;
+	border-bottom: 2px inset #73a580;
+
+}
+/*#end btn-abstracto*/
+
+/*btn-oscuro*/
+.btn-oscuro-Naranja{
+	background: #1A1A1A ;
+	border:none;
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+  	border-radius: 6%;
+    font-size: 20px;
+    color: #fca311;
+}
+.btn-oscuro-Naranja:hover{
+	
+	font-size: 25px;
+	width: 10%;
+	box-shadow: 0px 0px 15px 6px #fca311;
+}
+
+.btn-oscuro-Celeste-Verde{
+	background: #1A1A1A ;
+	border:none;
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+    border-radius: 6%;
+    font-size: 20px;
+    color: #4ecdc4;
+}
+.btn-oscuro-Celeste-Verde:hover{
+	
+	font-size: 25px;
+	box-shadow: 0px 0px 15px 6px #4ecdc4;
+}
+
+.btn-oscuro-Celeste{
+	background: #1A1A1A ;
+	border:none;
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+   border-radius: 6%;
+    font-size: 20px;
+    color:#00bbf9;
+}
+.btn-oscuro-Celeste:hover{
+	
+	font-size: 25px;
+	box-shadow: 0px 0px 15px 6px #00bbf9;
+}
+
+.btn-oscuro-Morado{
+	
+	background: #1A1A1A ;
+	border:none;
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+   border-radius: 6%;
+    font-size: 20px;
+    color:#6930c3;
+}
+.btn-oscuro-Morado:hover{
+	
+	font-size: 25px;
+	box-shadow: 0px 0px 15px 6px #6930c3;
+}
+
+.btn-oscuro-Rojo{
+	background: #1A1A1A ;
+	border:none;
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+   border-radius: 6%;
+    font-size: 20px;
+    color: #ef233c;
+}
+.btn-oscuro-Rojo:hover{
+	
+	font-size: 25px;
+	box-shadow: 0px 0px 15px 6px #ef233c;
+}
+
+.btn-oscuro-Celeste-Pastel{
+	background: #1A1A1A ;
+	border:none;
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+   border-radius: 6%;
+    font-size: 20px;
+     color: #b2f7ef;
+
+}
+.btn-oscuro-Celeste-Pastel:hover{
+	
+	font-size: 25px;
+	width: 10%;
+	box-shadow: 0px 0px 15px 6px #b2f7ef;
+}
+
+.btn-oscuro-Azul{
+	background: #1A1A1A ;
+	border:none;
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+   border-radius: 6%;
+    font-size: 20px;
+       color: #1b3b6f;
+}
+
+.btn-oscuro-Azul:hover{
+	
+	font-size: 25px;
+	box-shadow: 0px 0px 15px 6px #1b3b6f;
+}
+
+.btn-oscuro-Gris{
+	background: #1A1A1A ;
+	border:none;
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+    border-radius: 6%;
+    font-size: 20px;
+     color: #8d99ae;
+
+}
+.btn-oscuro-Gris:hover{
+	
+	font-size: 25px;
+	box-shadow: 0px 0px 15px 6px #8d99ae;
+}
+
+.btn-oscuro-Vino{
+	background: #1A1A1A ;
+	border:none;
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+    border-radius: 6%;
+    font-size: 20px;
+    color: #702632;
+}
+.btn-oscuro-Vino:hover{
+	
+	font-size: 25px;
+	box-shadow: 0px 0px 15px 6px #702632;
+}
+
+.btn-oscuro-Verde{
+	background: #1A1A1A ;
+	border:none;
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+    border-radius: 6%;
+    font-size: 20px;
+     color: #73a580;
+}
+
+.btn-oscuro-Verde:hover{
+	
+	font-size: 25px;
+	box-shadow: 0px 0px 15px 6px #73a580;
+
+}
+/*#end btn-oscuro*/
+
+
+/*btn-puntos*/
+.btn-puntos-Naranja{
+	background: #fca311 ;
+	border:none;
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+  	border-radius: 6%;
+    font-size: 20px;
+    color: #6D4A11;
+    border: 3px dotted #EAB968; 
+}
+.btn-puntos-Naranja:hover{
+	
+	font-size: 25px;
+	box-shadow: 0px 0px 5px 1px #EAB968;
+	border: 4px dotted #EAB968;
+	text-shadow: 2px 2px 2px #EAB968;
+
+}
+
+.btn-puntos-Celeste-Verde{
+	background: #4ecdc4 ;
+	border:none;
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+    border-radius: 6%;
+    font-size: 20px;
+    color: #1C726C;
+    border: 3px dotted #72E3DB; 
+}
+.btn-puntos-Celeste-Verde:hover{
+	
+	font-size: 25px;
+	box-shadow: 0px 0px 5px 1px #72E3DB;
+	border: 4px dotted #72E3DB;
+	text-shadow: 2px 2px 2px #72E3DB;
+}
+
+.btn-puntos-Celeste{
+	background: #00bbf9 ;
+	border:none;
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+   border-radius: 6%;
+    font-size: 20px;
+    color:#14495A;
+    border: 3px dotted #72DBFE; 
+}
+.btn-puntos-Celeste:hover{
+	
+	font-size: 25px;
+	box-shadow: 0px 0px 5px 1px #72DBFE;
+	border: 4px dotted #72DBFE;
+	text-shadow: 2px 2px 2px #72DBFE;
+}
+
+.btn-puntos-Morado{
+	
+	background: #6930c3 ;
+	border:none;
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+   border-radius: 6%;
+    font-size: 20px;
+    color:#3D1877;
+    border: 3px dotted #905BE3; 
+}
+.btn-puntos-Morado:hover{
+	
+	font-size: 25px;
+	box-shadow: 0px 0px 5px 1px #905BE3;
+	border: 4px dotted #905BE3;
+	text-shadow: 2px 2px 2px #905BE3;
+}
+
+.btn-puntos-Rojo{
+	background: #ef233c ;
+	border:none;
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+   border-radius: 6%;
+    font-size: 20px;
+    color: #7D121F;
+    border: 3px dotted #F74E63; 
+}
+.btn-puntos-Rojo:hover{
+	
+	font-size: 25px;
+	width: 10%;
+	box-shadow: 0px 0px 5px 1px #F74E63;
+	border: 4px dotted #F74E63;
+	text-shadow: 2px 2px 2px #F74E63;
+}
+
+.btn-puntos-Celeste-Pastel{
+	background: #b2f7ef ;
+	border:none;
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+   border-radius: 6%;
+    font-size: 20px;
+     color: #129D8F;
+     border: 3px dotted #E2FFFC; 
+
+}
+.btn-puntos-Celeste-Pastel:hover{
+	
+	font-size: 25px;
+	box-shadow: 0px 0px 5px 1px #E2FFFC;
+	border: 4px dotted #E2FFFC;
+	text-shadow: 2px 2px 2px #E2FFFC;
+}
+
+.btn-puntos-Azul{
+	background: #1b3b6f ;
+	border:none;
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+   border-radius: 6%;
+    font-size: 20px;
+       color: #0A1F42;
+       border: 3px dotted #4A72B4; 
+}
+
+.btn-puntos-Azul:hover{
+	
+	font-size: 25px;
+	box-shadow: 0px 0px 5px 1px #4A72B4;
+	border: 4px dotted #4A72B4;
+	text-shadow: 2px 2px 2px #4A72B4;
+}
+
+.btn-puntos-Gris{
+	background: #8d99ae ;
+	border:none;
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+    border-radius: 6%;
+    font-size: 20px;
+     color: #4C4D50;
+     border: 3px dotted #CFD8E8; 
+
+}
+.btn-puntos-Gris:hover{
+	
+	font-size: 25px;
+	box-shadow: 0px 0px 5px 1px #CFD8E8;
+	border: 4px dotted #CFD8E8;
+	text-shadow: 2px 2px 2px #CFD8E8;
+}
+
+.btn-puntos-Vino{
+	background: #702632 ;
+	border:none;
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+    border-radius: 6%;
+    font-size: 20px;
+    color: #2C080E;
+    border: 3px dotted #952C3D; 
+}
+.btn-puntos-Vino:hover{
+	
+	font-size: 25px;
+	box-shadow: 0px 0px 5px 1px #952C3D;
+	border: 4px dotted #952C3D;
+	text-shadow: 2px 2px 2px #952C3D;
+}
+
+.btn-puntos-Verde{
+	background: #73a580 ;
+	border:none;
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+    border-radius: 6%;
+    font-size: 20px;
+    color: #233729;
+    border: 3px dotted #8CC39A; 
+}
+
+.btn-puntos-Verde:hover{
+	
+	font-size: 25px;
+	box-shadow: 0px 0px 5px 1px #8CC39A;
+	border: 4px dotted #8CC39A;
+	text-shadow: 2px 2px 2px #8CC39A;
+	
+
+}
+/*#end btn-puntos*/
+
+
+/*btn-verticales*/
+.btn-vertical-Naranja{
+	background: rgb(252, 163, 17 ,0.5);
+	border:none;
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+  	border-radius: 6%;
+    font-size: 20px;
+    color: #A16707;
+    transform: rotate(270deg);
+    float: left;
+}
+.btn-vertical-Naranja:hover{
+	
+	background: rgb(252, 163, 17 ,0.9);
+
+}
+
+.btn-vertical-Celeste-Verde{
+	background: rgb(78, 205, 196 ,0.5);
+	border:none;
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+    border-radius: 6%;
+    font-size: 20px;
+    color: #318680; 
+    transform: rotate(270deg);
+    float: left;
+}
+.btn-vertical-Celeste-Verde:hover{
+  background: rgb(78, 205, 196 ,0.9);
+}
+
+.btn-vertical-Celeste{
+	background: rgb(0, 187, 249 ,0.5);
+	border:none;
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+   border-radius: 6%;
+    font-size: 20px;
+    color:#056788; 
+    transform: rotate(270deg);
+    float: left;
+}
+.btn-vertical-Celeste:hover{
+	
+	background: rgb(0, 187, 249 ,0.9);
+}
+
+.btn-vertical-Morado{
+	
+	background: rgb(105, 48, 195 ,0.5);
+	border:none;
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+   border-radius: 6%;
+    font-size: 20px;
+    color:#4D258E; 
+    transform: rotate(270deg);
+    float: left;
+}
+.btn-vertical-Morado:hover{
+	
+	background: rgb(105, 48, 195 ,0.9);
+}
+
+.btn-vertical-Rojo{
+	background: rgb(239, 35, 60  ,0.5);
+	border:none;
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+   border-radius: 6%;
+    font-size: 20px;
+    color:#A21A2A; 
+    transform: rotate(270deg);
+    float: left;
+}
+.btn-vertical-Rojo:hover{
+	
+	background: rgb(239, 35, 60  ,0.9);
+}
+
+.btn-vertical-Celeste-Pastel{
+	background: rgb(178, 247, 239 ,0.5);
+	border:none;
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+   border-radius: 6%;
+    font-size: 20px;
+     color:  #77A5A0; 
+     transform: rotate(270deg);
+     float: left;
+
+}
+.btn-vertical-Celeste-Pastel:hover{
+ background: rgb(178, 247, 239 ,0.9);
+}
+
+.btn-vertical-Azul{
+	background: rgb(27, 59, 111  ,0.5);
+	border:none;
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+   border-radius: 6%;
+    font-size: 20px;
+       color:  #112546;
+       transform: rotate(270deg);
+       float: left;
+}
+
+.btn-vertical-Azul:hover{
+	background: rgb(27, 59, 111  ,0.9);
+
+}
+
+.btn-vertical-Gris{
+	background: rgb(141, 153, 174 ,0.5);
+	border:none;
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+    border-radius: 6%;
+    font-size: 20px;
+     color:#474D56;
+     transform: rotate(270deg); 
+     float: left;
+
+}
+.btn-vertical-Gris:hover{
+	
+	background: rgb(141, 153, 174 ,0.9);
+}
+
+.btn-vertical-Vino{
+	background: rgb(112, 38, 50 ,0.5);
+	border:none;
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+    border-radius: 6%;
+    font-size: 20px;
+    color: #150609;
+    transform: rotate(270deg);
+    float: left; 
+}
+.btn-vertical-Vino:hover{
+	background: rgb(112, 38, 50 ,0.9);
+	
+}
+
+.btn-vertical-Verde{
+	background: rgb(115, 165, 128 ,0.5);
+	border:none;
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+    border-radius: 6%;
+    font-size: 20px;    
+    color: #114F21;
+    transform: rotate(270deg);
+    float: left;
+}
+
+.btn-vertical-Verde:hover{
+	background: rgb(115, 165, 128 ,0.9);
+}
+/*#end btn-verticales*/
+
+
+
+
+
+/*btn-degradado*/
+.btn-degradado-Naranja{
+	background: linear-gradient(60deg, #FCA311 0%, #F8D59B 100%);
+	border:none;
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+  	border-radius: 6%;
+    font-size: 20px;
+    color: #A16707;
+    box-shadow: 5px 5px 10px -4px #000000;
+    
+}
+.btn-degradado-Naranja:hover{
+	
+	background: linear-gradient(60deg, #F8D59B 0%, #FCA311 100%);
+
+}
+
+.btn-degradado-Celeste-Verde{
+	background: linear-gradient(60deg, #4ecdc4 0%, #A6F3ED 100%);
+	border:none;
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+    border-radius: 6%;
+    font-size: 20px;
+    color: #318680; 
+    box-shadow: 5px 5px 10px -4px #000000;
+   
+}
+.btn-degradado-Celeste-Verde:hover{
+ background: linear-gradient(60deg, #A6F3ED 0%, #4ecdc4 100%);
+}
+
+.btn-degradado-Celeste{
+	background: linear-gradient(60deg, #00bbf9 0%, #BCEEFE 100%);
+	border:none;
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+   border-radius: 6%;
+    font-size: 20px;
+    color:#056788; 
+    box-shadow: 5px 5px 10px -4px #000000;
+}
+.btn-degradado-Celeste:hover{
+	
+	background: linear-gradient(60deg, #BCEEFE 0%, #00bbf9 100%);
+}
+
+.btn-degradado-Morado{
+	
+	background: linear-gradient(60deg, #6930c3 0%, #A77FE7 100%);
+	border:none;
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+   border-radius: 6%;
+    font-size: 20px;
+    color:#4D258E; 
+    box-shadow: 5px 5px 10px -4px #000000;
+}
+.btn-degradado-Morado:hover{
+	
+	background: linear-gradient(60deg, #A77FE7 0%, #6930c3 100%);
+}
+
+.btn-degradado-Rojo{
+	background: linear-gradient(60deg, #ef233c  0%, #ECA4A4  100%);
+	border:none;
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+   border-radius: 6%;
+    font-size: 20px;
+    color:#A21A2A; 
+    box-shadow: 5px 5px 10px -4px #000000;
+}
+.btn-degradado-Rojo:hover{
+	
+	background: linear-gradient(60deg, #ECA4A4  0%, #ef233c  100%);
+}
+
+.btn-degradado-Celeste-Pastel{
+	background: linear-gradient(60deg, #b2f7ef 0%, #7CD1C7 100%);
+	border:none;
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+   border-radius: 6%;
+    font-size: 20px;
+     color:  #77A5A0; 
+     box-shadow: 5px 5px 10px -4px #000000;
+
+}
+.btn-degradado-Celeste-Pastel:hover{
+	background: linear-gradient(60deg, #7CD1C7 0%, #b2f7ef 100%);
+}
+
+.btn-degradado-Azul{
+	background: linear-gradient(60deg, #1b3b6f 0%, #47618C 100%);
+	border:none;
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+   border-radius: 6%;
+    font-size: 20px;
+       color:  #112546;
+       box-shadow: 5px 5px 10px -4px #000000;
+}
+
+.btn-degradado-Azul:hover{
+	background: linear-gradient(60deg, #47618C 0%, #1b3b6f 100%);
+
+}
+
+.btn-degradado-Gris{
+	background: linear-gradient(60deg, #8d99ae 0%, #C3C4C5 100%);
+	border:none;
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+    border-radius: 6%;
+    font-size: 20px;
+     color:#474D56;
+     box-shadow: 5px 5px 10px -4px #000000;
+
+}
+.btn-degradado-Gris:hover{
+	
+	background: linear-gradient(60deg, #C3C4C5 0%, #8d99ae 100%);
+}
+
+.btn-degradado-Vino{
+	background: linear-gradient(60deg, #702632 0%, #86555D 100%);
+	border:none;
+	padding: 1%;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+    border-radius: 6%;
+    font-size: 20px;
+    color: #150609;
+    box-shadow: 5px 5px 10px -4px #000000;
+}
+.btn-degradado-Vino:hover{
+	background: linear-gradient(60deg, #86555D 0%, #702632 100%);
+	
+}
+
+.btn-degradado-Verde{
+	background: linear-gradient(60deg, #73a580 0%, #B8F2C8 100%);
+	padding: 1%;
+	border:none;
+	font-variant: small-caps;
+	text-align: center;
+    font-family: Arial;
+    border-radius: 6%;
+    font-size: 20px;    
+    color: #114F21;
+    box-shadow: 5px 5px 10px -4px #000000;
+}
+
+.btn-degradado-Verde:hover{
+	background: linear-gradient(60deg, #B8F2C8 0%, #73a580 100%);
+}
+/*#end btn-degradado*/

@@ -1,0 +1,87 @@
+<style>
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: magenta;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+</style>
+
+
+
+
+<style>
+.pagina {
+  display: inline-block;
+}
+
+.pagina a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+}
+
+.pagina a.active {
+  background-color: lightblue;
+  color: white;
+  border: 1px solid lightblue;
+}
+
+.pagina a:hover:not(.active) {background-color: #ddd;}
+</style>
+
+
+<style>
+.pag {
+  display: inline-block;
+}
+
+.pag a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+  margin: 0 4px;
+}
+
+.pag a.active {
+  background-color: #4CAF50;
+  color: white;
+  border: 1px solid #4CAF50;
+}
+
+.pag a:hover:not(.active) {background-color: #ddd;}
+</style>
+
+
+<style>
+.paginacion {
+  display: inline-block;
+}
+
+.paginacion a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+}
+
+.paginacion a.active {
+  background-color: brown;
+  color: white;
+  border: 1px solid black;
+}
+
+.paginacion a:hover:not(.active) {background-color: #ddd;}
+</style>

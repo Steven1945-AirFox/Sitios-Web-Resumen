@@ -1,0 +1,56 @@
+body{
+	font-family: 'GlacialIndifferenceRegular'; 
+}
+.contenedorT5{
+	position: absolute;
+	transition: all .2s ease-in-out;
+	overflow: hidden;
+	float: left;
+	width: 100%;
+	max-width: 250px;
+	height: 25em;
+	background-color: #ef233c;
+}
+
+.contenedorT5:hover{
+	transform: scale(1.1);
+}
+
+.contenedorT5 > .contenido{
+	display: block;
+	position: relative;
+}
+
+.contenedorT5 > .contenido > .barrasuperior{
+	height: 5em;
+	width: 100%;
+	position: relative;
+	background-color: #ef233c;
+}
+
+.contenedorT5 > .contenido > .texto{
+	transform: translate(0, 15px);
+	text-align: justify;
+	background-color: white;
+	padding: 55px 20px 20px 20px;
+	width: 87%;
+	height: 12em;
+}
+
+.contenedorT5 > .contenido > .imagen{
+	z-index: 1;
+	transform: translate(0, -40px);
+	position: absolute;
+	width: 100%;
+}
+
+.contenedorT5 > .contenido > .imagen > img{
+	border-radius: 50%;
+	border: 3px solid white;
+	display: block;
+	margin: 0 auto;
+	position: relative;
+	object-fit: cover;
+	width: 96px;
+	height: 96px;
+}

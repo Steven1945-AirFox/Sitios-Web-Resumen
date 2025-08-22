@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #FFFFFF; }
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px; }
+
+.row {
+  margin: 0 -5px; }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px; } }
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #C5CAE9; }
+
+.avatar {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 40%; }
+  .avatar:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); }
+
+.container {
+  padding: 2px 16px; }
+
+.avatarf {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 40%;
+  border-radius: 5px; }
+  .avatarf:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); }
+
+img {
+  border-radius: 5px 5px 0 0; }
+
+.containerf {
+  padding: 2px 16px; }
+
+.articulo {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial; }
+
+.price {
+  color: grey;
+  font-size: 22px; }
+
+.articulo button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #212121;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px; }
+  .articulo button:hover {
+    opacity: 0.7; }
+
+.tj-img {
+  width: 80%;
+  background-color: #B2EBF2;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px; }
+
+.container-img {
+  text-align: center;
+  padding: 10px 20px; }
+
+.column-b {
+  float: left;
+  width: 25%;
+  padding: 0 10px; }
+
+.row-b {
+  margin: 0 -5px; }
+  .row-b:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+@media screen and (max-width: 600px) {
+  .column-b {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px; } }
+.card-b {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #3F51B5; }
+
+.column-c {
+  float: left;
+  width: 25%;
+  padding: 0 10px; }
+
+.row-c {
+  margin: 0 -5px; }
+  .row-c:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+@media screen and (max-width: 600px) {
+  .column-c {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px; } }
+.card-c {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #536DFE; }
+
+/*# sourceMappingURL=main.css.map */

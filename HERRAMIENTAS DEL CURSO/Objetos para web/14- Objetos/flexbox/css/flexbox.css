@@ -1,0 +1,66 @@
+*{
+	margin: 0;
+	font-family: GlacialIndifferenceRegular;
+}
+
+.contenedor{
+	margin-bottom: 100px;
+	
+	margin:0 auto;
+	width: 1024px;
+}
+
+.flex-cont{
+	width: 100%;
+	display: flex;
+}
+
+.col-100{
+	padding: 10px;
+	text-align: justify;
+	
+	width: 100%;
+}
+
+.col-50{
+	padding: 10px;
+	text-align: justify;
+	width: 50%;
+}
+
+.col-33{
+	padding: 10px;
+	text-align: justify;
+	
+	width: 33.3%;
+}
+
+.col-75{
+	padding: 10px;
+	text-align: justify;
+	
+	width: 75%;
+}
+
+.col-25{
+	padding: 10px;
+	text-align: justify;
+	
+	width: 25%;
+}
+
+@media screen and (max-width: 750px) {
+	.contenedor{
+		width: 90%;
+	}
+
+	.flex-cont{
+		flex-direction: column;
+		align-items: stretch;
+	}
+
+	.col-75, .col-50, .col-33, .col-25{
+		width: 100%;
+		padding: 0;
+	}
+}

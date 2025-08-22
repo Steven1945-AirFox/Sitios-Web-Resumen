@@ -1,0 +1,125 @@
+$dis: block;
+$pos: relative;
+$fondo1: #ffffff;
+$fondo2: #000000;
+$color1: #3F51B5;
+$color2: #00BCD4;
+$color3: #8BC34A;
+$ancho: .5rem .75rem;
+$mar: -1px;
+$line: 1.25;
+
+.paginacion{
+    display: flex;
+    list-style: none;
+    padding: 3px;  
+     
+}
+
+.pag-pc-i{
+    position: $pos;
+    display: $dis;
+    padding: $ancho;
+    margin-left: $mar;
+    line-height: $line;
+    color: $color1;
+    background-color: $fondo1;
+    border: 1px solid $color1;
+    text-decoration: none;
+}
+
+.pag-pc-c{
+    position: $pos;
+    display: $dis;
+    padding: $ancho;
+    margin-left: $mar;
+    line-height: $line;
+    color: $color2;
+    background-color: $fondo1;
+    border: 1px solid $color2;
+    text-decoration: none;
+}
+
+.pag-pc-l{
+    position: $pos;
+    display: $dis;
+    padding: $ancho;
+    margin-left: $mar;
+    line-height: $line;
+    color: $color3;
+    background-color: $fondo1;
+    border: 1px solid $color3;
+    text-decoration: none;
+}
+
+.pag-pc-i2{
+    position: $pos;
+    display: $dis;
+    padding: $ancho;
+    margin-left: $mar;
+    line-height: $line;
+    color: $color1;
+    background-color: $fondo2;
+    border: 1px solid $color1;
+    text-decoration: none;
+}
+
+.pag-pc-c2{
+    position: $pos;
+    display: $dis;
+    padding: $ancho;
+    margin-left: $mar;
+    line-height: $line;
+    color: $color2;
+    background-color: $fondo2;
+    border: 1px solid $color2;
+    text-decoration: none;
+}
+
+.pag-pc-l2{
+    position: relative;
+    display: $dis;
+    padding: $ancho;
+    margin-left: $mar;
+    line-height: $line;
+    color: $color3;
+    background-color: $fondo2;
+    border: 1px solid $color3;
+    text-decoration: none;
+}
+
+.pag-pc-i3{
+    position: $pos;
+    display: $dis;
+    padding: $ancho;
+    margin-left: $mar;
+    line-height: $line;
+    color: $fondo2;
+    background-color: $color1;
+    border: 1px solid $fondo2;
+    text-decoration: none;
+}
+
+.pag-pc-c3{
+    position: $pos;
+    display: $dis;
+    padding: $ancho;
+    margin-left: $mar;
+    line-height: $line;
+    color: $fondo2;
+    background-color: $color2;
+    border: 1px solid $fondo2;
+    text-decoration: none;
+}
+
+.pag-pc-l3{
+    position: $pos;
+    display: $dis;
+    padding: $ancho;
+    margin-left: $mar;
+    line-height: $line;
+    color: $fondo2;
+    background-color: $color3;
+    border: 1px solid $fondo2;
+    text-decoration: none;
+}

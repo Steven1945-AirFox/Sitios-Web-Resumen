@@ -1,0 +1,54 @@
+body{
+	font-family: 'GlacialIndifferenceRegular'; 
+}
+.contenedorT1{
+	color: white;
+	position: absolute;
+	transition: all .2s ease-in-out;
+	overflow: hidden;
+	float: left;
+	width: 100%;
+	max-width: 520px;
+	max-height: 256px;
+	border-radius: 10px;
+	background-color: #fca311;
+}
+
+.contenedorT1:hover{
+	transform: scale(1.1);
+}
+
+.contenedorT1 .contenido{
+	display: block;
+	position: relative;
+	float: left;
+	width: 100%;
+	padding: 0px 30px 30px 30px; 
+}
+
+.contenedorT1 .texto{
+	text-align: justify;
+	position: relative;
+	width: 45%;
+	float: left;
+}
+
+.contenedorT1 .contenido .titulo{
+	margin-bottom: 0;
+	font-size: 2em;
+	position: relative;
+}
+
+.contenedorT1 .contenido .imagen{
+	position: relative;
+	float: left;
+	padding-left: 15px;
+	width: 40%;
+}
+
+.contenedorT1 .contenido .imagen img{
+	object-fit: cover;
+	width: 256px;
+	height: 256px;
+	transform: translate(-5px, -72px);
+}

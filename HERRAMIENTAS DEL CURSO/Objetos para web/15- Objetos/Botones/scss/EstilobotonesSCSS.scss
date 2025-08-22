@@ -1,0 +1,57 @@
+// ----
+// libsass (v3.2.5)
+// ----
+
+@mixin crearBorde($valor_radio,$color_fondo){
+  padding:20px;
+  background:$color_fondo;
+  border-radius:$valor_radio;
+  -webkit-border-radius:$valor_radio;
+  -moz-border-radius:$valor_radio;
+  -o-border-radius:$valor_radio;
+}
+@mixin personalizarBorde($valor_radio,$codigo_estilo,$color:orange){
+  @if $codigo_estilo == 1 {
+    @include crearBorde($valor_radio,$color);
+  }
+  
+  @if $codigo_estilo == 2{
+    $temp: $valor_radio/2 $valor_radio $valor_radio/2 $valor_radio;
+    @include crearBorde($temp,$color);
+  }
+  
+  @if $codigo_estilo == 3{
+    $temp: $valor_radio $valor_radio/2 $valor_radio $valor_radio/2;
+    @include crearBorde($temp,$color);
+  }
+  
+  @if $codigo_estilo == 4{
+    $temp: $valor_radio*2 0 $valor_radio*3 0;
+    @include crearBorde($temp,$color);
+  }
+}
+ul{
+  list-style:none;
+}
+li{
+  display:inline-block;
+  cursor:pointer;
+  &:hover{
+    color:white;
+  }
+}
+#seccion_1{
+  @include personalizarBorde(50px,1,purple);
+}
+#seccion_2{
+  @include personalizarBorde(30px,2);
+}
+#seccion_3{
+  @include personalizarBorde(30px,3,magenta);
+}
+#seccion_4{
+  @include personalizarBorde(20px,4,grey);
+}
+#seccion_5{
+  @include personalizarBorde(70px,1,cyan);
+}

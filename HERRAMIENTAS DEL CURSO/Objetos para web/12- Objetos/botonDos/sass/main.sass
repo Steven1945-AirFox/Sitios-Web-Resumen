@@ -1,0 +1,48 @@
+$color_fondo: #83E0EC
+$tamano_fuente: 20
+$color-texto: #2c3e50
+$familia: 'trebuchet ms'
+
+html 
+  font-size: $tamano_fuente
+  box-sizing: border-box
+
+body 
+  background-color: $color_fondo
+  display: flex
+  align-items: center
+  justify-content: center
+  height: 100vh
+  overflow: hidden
+
+.btn 
+  border: 5px solid #2c3e50
+  color: $color-texto
+  display: block
+  font-family: $familia
+  font-size: 2rem
+  letter-spacing: 0.1rem
+  padding: 1rem
+  position: relative
+  text-decoration: none
+  text-transform: uppercase
+
+
+.btn::before
+  content: ""
+  background-color: #E26A6A
+  box-shadow: 10px 10px 0 #F1C40F, 20px 20px 0 #3498DB
+  position: absolute
+  left: 0.25em
+  top: 0.5em
+  height: 102%
+  width: 102%
+  z-index: -1
+  transition: all 0.4s ease
+
+.btn:hover::before
+  box-shadow: none
+  left: 0
+  top: 0
+  width: 100%
+  heigh: 100%

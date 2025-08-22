@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap" rel="stylesheet">
+    <style>
+        .redondear {
+            border-radius: 15px;
+            min-width: 100px;
+            padding: 8px;
+        }
+        
+        .borderredondo {
+            border-radius: 15px;
+        }
+        
+        .cuadrar {
+            border-radius: 5px;
+            padding: 8px;
+            min-width: 100px;
+        }
+        
+        .morado {
+            background-color: blueviolet;
+            color: whitesmoke;
+        }
+        
+        .celeste {
+            background-color: dodgerblue;
+            color: whitesmoke;
+        }
+        
+        .sinmorado {
+            background-color: whitesmoke;
+            color: blueviolet;
+            border-color: blueviolet;
+        }
+        
+        .sinborder {
+            border: none;
+        }
+        
+        #grad {
+            background-image: linear-gradient(blueviolet, dodgerblue);
+            color: whitesmoke;
+        }
+        
+        #gradr {
+            background-image: radial-gradient(blueviolet, dodgerblue, whitesmoke);
+        }
+        
+        .ancho {
+            width: 250px;
+            border: 2px darksalmon solid;
+        }
+        
+        .ancho .titulo {
+            color: whitesmoke;
+            font-size: 16px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <button class="redondear morado sinborder">Enviar</button>
+        <button class="redondear sinmorado">Enviar</button>
+        <button class="redondear celeste sinborder">Enviar</button>
+        <button class="redondear" id="grad">Enviar</button>
+        <button class="redondear sinborder celeste" id="gradr">Enviar</button>
+
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div style="display: flex;justify-content: space-around;width: 100%;">
+        <div class="ancho" style="background-color: darkslategray; box-shadow: 10px 5px 5px black;">
+            <div class="titulo" style="background-color: darkslategray;">
+                <h3>Titulo Carta</h3>
+                <hr>
+                <img src="gra1.png" alt="Girl in a jacket" width="200" height="200">
+                <p class='morado'>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit eos itaque ea nulla esse deleniti ipsam eum minima deserunt, impedit dolor eius hic facere nemo quam repellendus minus officia commodi.
+                </p>
+            </div>
+            <div style="display: flex;justify-content: space-around;">
+                <button style="max-width: 150px;padding: 10px;"><i class="fab fa-twitter"></i></button>
+                <button style="max-width: 150px;padding: 10px;"><i class="fab fa-facebook"></i></button>
+                <button style="max-width: 150px;padding: 10px;"><i class="fab fa-google-plus-square"></i></button>
+            </div>
+        </div>
+        <div class="ancho" style="background-color: darkslategray; box-shadow: 10px 5px 5px black;">
+            <div class="titulo" style="background-color: darkslategray;">
+                <h3>Titulo Carta</h3>
+                <hr>
+                <div style="display: inline-table;justify-content: space-between;">
+                    <p class='morado'>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit eos itaque ea nulla esse deleniti ipsam eum minima deserunt, impedit dolor eius hic facere nemo quam repellendus minus officia commodi.
+                    </p>
+                    <p class='morado'>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit eos itaque ea nulla esse deleniti ipsam eum minima deserunt, impedit dolor eius hic facere nemo quam repellendus minus officia commodi.
+                    </p>
+                </div>
+
+
+            </div>
+            <center>
+                <button class="redondear celeste sinborder">Ver mas...</button>
+            </center>
+        </div>
+        <div class="ancho borderredondo" style="background-color: darkslategray;">
+            <div style="background-color: darkslategray;">
+                <h3 style="color: whitesmoke;">Titulo Carta</h3>
+                <hr>
+                <p class='celeste'>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit eos itaque ea nulla esse deleniti ipsam eum minima deserunt, impedit dolor eius hic facere nemo quam repellendus minus officia commodi.
+                </p>
+                <p class='celeste'>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit eos itaque ea nulla esse deleniti ipsam eum minima deserunt, impedit dolor eius hic facere nemo quam repellendus minus officia commodi.
+                </p>
+            </div>
+
+            <div style="display: flex;justify-content: space-around;min-height: 30px;">
+                <button class="cuadrar morado">Ver mas...</button>
+                <button class="cuadrar morado sinborder">Comentar</button>
+            </div>
+        </div>
+        <div class="ancho" style="background-color: darkslategray;">
+            <div style="background-color: darkslategray;">
+                <center>
+                    <img src="https://aks2020.000webhostapp.com/corazonada/star.png" alt="Girl in a jacket" width="30" height="30">
+                    <h3 style="color: whitesmoke;">Titulo Carta</h3>
+                </center>
+
+                <hr>
+                <p class='celeste'>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit eos itaque ea nulla esse deleniti ipsam eum minima deserunt, impedit dolor eius hic facere nemo quam repellendus minus officia commodi.
+                </p>
+                <p class='celeste'>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit eos itaque ea nulla esse deleniti ipsam eum minima deserunt, impedit dolor eius hic facere nemo quam repellendus minus officia commodi.
+                </p>
+            </div>
+
+            <div style="display: flex;justify-content: flex-end;min-height: 30px;padding: 5px;">
+                <button class="cuadrar morado">Ver mas...</button>
+
+            </div>
+        </div>
+        <div class="ancho borderredondo" style="background-color: darkslategray;">
+            <div class="borderredondo" style="background-color: darkslategray;">
+                <center>
+                    <img src="https://aks2020.000webhostapp.com/corazonada/star.png" alt="Girl in a jacket" width="30" height="30">
+                    <h3 style="color: whitesmoke;">Titulo Carta</h3>
+                </center>
+
+                <hr>
+                <center>
+                    <img src="gra1.png" alt="Girl in a jacket" width="200" height="200">
+                </center>
+            </div>
+
+            <div style="display: flex;justify-content: space-between;min-height: 30px;padding: 5px;margin-top:60px">
+
+                <button class="cuadrar morado" style="max-width: 20px;"><i class="fas fa-arrow-left"></i></button>
+                <button class="cuadrar morado" style="max-width: 20px;"><i class="fas fa-arrow-right"></i></button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
